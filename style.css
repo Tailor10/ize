@@ -1,3 +1,7 @@
+/* =========================
+   ALAPOK
+========================= */
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,42 +10,143 @@
 
 body {
     min-height: 100vh;
+    background:
+        radial-gradient(
+            circle at center,
+            #195a43 0%,
+            #0e4231 45%,
+            #082d22 100%
+        );
+
+    color: white;
+
+    font-family:
+        Arial,
+        Helvetica,
+        sans-serif;
+
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #0b3d2e;
-    color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
+
+    padding: 40px 20px;
+
+    overflow-x: hidden;
 }
+
 
 /* =========================
    FŐ JÁTÉK
 ========================= */
 
 .game {
+    position: relative;
+
     width: 100%;
     max-width: 600px;
-    background: #124d3a;
-    border: 1px solid #2f8f63;
+
+    background:
+        rgba(
+            24,
+            77,
+            58,
+            0.96
+        );
+
+    border:
+        1px solid
+        #3b8f6c;
+
     border-radius: 24px;
-    padding: 35px;
+
+    padding: 38px;
+
     text-align: center;
-    box-shadow: 0 20px 80px rgba(0, 0, 0, 0.35);
+
+    box-shadow:
+        0 20px 80px
+        rgba(
+            0,
+            0,
+            0,
+            0.35
+        );
 }
+
 
 /* =========================
    FEJLÉC
 ========================= */
 
+header {
+    margin-bottom: 12px;
+}
+
 header h1 {
     font-size: 42px;
-    margin-bottom: 10px;
+    margin-bottom: 8px;
 }
 
 header p {
     color: #b8d8c8;
+    font-size: 16px;
 }
+
+
+/* =========================
+   JÁTÉKMÓD
+========================= */
+
+.current-category {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    gap: 8px;
+
+    margin-top: 6px;
+    margin-bottom: 28px;
+
+    color: #a8cbb9;
+
+    font-size: 14px;
+}
+
+.current-category strong {
+    color: #8dffb7;
+}
+
+#changeCategoryButton {
+    border: none;
+
+    padding: 8px 14px;
+
+    border-radius: 8px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f9d55,
+            #2ecc71
+        );
+
+    color: white;
+
+    font-size: 12px;
+    font-weight: bold;
+
+    cursor: pointer;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
+}
+
+#changeCategoryButton:hover {
+    transform: translateY(-1px);
+    opacity: 0.9;
+}
+
 
 /* =========================
    STATISZTIKÁK
@@ -49,115 +154,215 @@ header p {
 
 .stats {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
     gap: 10px;
-    margin-top: 30px;
+
+    margin-bottom: 25px;
 }
 
 .stat {
     background: #0d382a;
-    padding: 15px;
+
+    padding: 17px 10px;
+
     border-radius: 14px;
-    border: 1px solid #216b4c;
+
+    border:
+        1px solid
+        #216b4c;
 }
 
 .stat span {
     display: block;
+
     font-size: 12px;
+
     color: #a8cbb9;
-    margin-bottom: 5px;
+
+    margin-bottom: 6px;
 }
 
 .stat strong {
+    display: block;
+
     font-size: 20px;
+
     color: white;
 }
 
+
 /* =========================
-   LEADERBOARD
+   RANGLISTA
+   KÜLÖN PANEL BAL OLDALT
 ========================= */
 
 .leaderboard {
-    margin-top: 20px;
-    background: #0d382a;
-    border: 1px solid #216b4c;
-    border-radius: 16px;
+    position: absolute;
+
+    top: 255px;
+
+    right: calc(
+        100% + 35px
+    );
+
+    width: 320px;
+
+    background:
+        rgba(
+            13,
+            56,
+            42,
+            0.98
+        );
+
+    border:
+        1px solid
+        #2a7857;
+
+    border-radius: 18px;
+
     padding: 16px;
+
     text-align: left;
+
+    box-shadow:
+        0 15px 50px
+        rgba(
+            0,
+            0,
+            0,
+            0.28
+        );
 }
 
 .leaderboard-header {
     display: flex;
-    justify-content: space-between;
+
+    justify-content:
+        space-between;
+
     align-items: center;
-    margin-bottom: 12px;
+
+    gap: 10px;
+
+    margin-bottom: 14px;
 }
 
 .leaderboard-header h2 {
-    font-size: 18px;
+    font-size: 19px;
 }
 
 #changeNameButton {
-    padding: 7px 10px;
     border: none;
+
+    padding: 8px 12px;
+
     border-radius: 8px;
-    background: #1f9d55;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f9d55,
+            #2ecc71
+        );
+
     color: white;
+
     cursor: pointer;
+
     font-size: 12px;
     font-weight: bold;
+
+    white-space: nowrap;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
 #changeNameButton:hover {
-    background: #27ae60;
+    transform: translateY(-1px);
+    opacity: 0.9;
 }
 
 .leaderboard-list {
     display: flex;
+
     flex-direction: column;
-    gap: 7px;
-    max-height: 270px;
+
+    gap: 8px;
+
+    max-height: 330px;
+
     overflow-y: auto;
+
+    padding-right: 3px;
 }
 
 .leaderboard-item {
     display: flex;
+
     align-items: center;
-    padding: 11px 12px;
+
+    gap: 8px;
+
+    padding: 12px;
+
     background: #104330;
+
     border-radius: 10px;
+
+    border:
+        1px solid
+        transparent;
 }
 
 .leaderboard-item.me {
-    border: 1px solid #2ecc71;
     background: #155239;
+
+    border-color: #2ecc71;
 }
 
 .leaderboard-rank {
-    width: 40px;
+    width: 30px;
+
     font-weight: bold;
-    color: #2ecc71;
+
+    color: #76f5a5;
 }
 
 .leaderboard-name {
     flex: 1;
+
     font-weight: bold;
+
     overflow: hidden;
+
     text-overflow: ellipsis;
+
     white-space: nowrap;
 }
 
 .leaderboard-score {
-    color: #6dff9d;
+    color: #76f5a5;
+
     font-weight: bold;
+
+    white-space: nowrap;
 }
 
 .leaderboard-loading,
 .leaderboard-empty {
     text-align: center;
+
     color: #a8cbb9;
-    padding: 15px;
+
+    padding: 18px 10px;
 }
+
 
 /* =========================
    LEJÁTSZÓ
@@ -165,53 +370,92 @@ header p {
 
 .player {
     display: flex;
+
     flex-direction: column;
+
     align-items: center;
+
     margin: 30px 0;
 }
 
 .play-button {
     width: 75px;
     height: 75px;
+
     border-radius: 50%;
+
     border: none;
-    background: #27ae60;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f9d55,
+            #2ecc71
+        );
+
     color: white;
+
     font-size: 25px;
+
     cursor: pointer;
-    transition: transform 0.2s, background 0.2s, opacity 0.2s;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
-.play-button:hover {
-    background: #2ecc71;
+.play-button:hover:not(:disabled) {
     transform: scale(1.08);
 }
 
 .play-button:disabled {
     opacity: 0.5;
+
     cursor: not-allowed;
 }
 
+
+/* =========================
+   IDŐ KIJELZÉS
+========================= */
+
 .time-display {
     display: flex;
+
     align-items: baseline;
+
     justify-content: center;
+
     gap: 6px;
+
     margin-top: 15px;
+
     font-size: 16px;
+
     font-weight: bold;
+
     color: #d8f5e4;
+
     background: #0d382a;
-    border: 1px solid #216b4c;
+
+    border:
+        1px solid
+        #216b4c;
+
     border-radius: 10px;
-    padding: 8px 16px;
+
+    padding: 9px 17px;
+
     min-width: 130px;
 }
 
 #currentTime {
-    color: #2ecc71;
+    color: #5cf29a;
+
     font-size: 19px;
-    font-variant-numeric: tabular-nums;
+
+    font-variant-numeric:
+        tabular-nums;
 }
 
 .time-separator {
@@ -220,13 +464,17 @@ header p {
 
 #listenTime {
     color: white;
-    font-variant-numeric: tabular-nums;
+
+    font-variant-numeric:
+        tabular-nums;
 }
 
 .time-unit {
     color: #a8cbb9;
+
     font-size: 13px;
 }
+
 
 /* =========================
    HALADÁSI CSÍK
@@ -234,20 +482,40 @@ header p {
 
 .progress {
     width: 100%;
-    height: 10px;
+
+    height: 9px;
+
     margin-top: 15px;
-    background: #0a3023;
+
+    background: #092d21;
+
     border-radius: 20px;
+
     overflow: hidden;
-    border: 1px solid #216b4c;
+
+    border:
+        1px solid
+        #216b4c;
 }
 
 .progress-bar {
     height: 100%;
+
     width: 0%;
-    background: #2ecc71;
+
+    background:
+        linear-gradient(
+            90deg,
+            #35d878,
+            #76f5a5
+        );
+
     border-radius: 20px;
+
+    transition:
+        width 0.08s linear;
 }
+
 
 /* =========================
    KERESŐ
@@ -259,13 +527,25 @@ header p {
 
 #guessInput {
     width: 100%;
+
     padding: 17px;
-    border: 2px solid #216b4c;
+
+    border:
+        2px solid
+        #216b4c;
+
     border-radius: 12px;
+
     background: #0d382a;
+
     color: white;
+
     font-size: 16px;
+
     outline: none;
+
+    transition:
+        border-color 0.2s ease;
 }
 
 #guessInput::placeholder {
@@ -276,145 +556,127 @@ header p {
     border-color: #2ecc71;
 }
 
+
 /* =========================
    TALÁLATOK
 ========================= */
 
 .results {
     position: absolute;
+
+    z-index: 20;
+
     width: 100%;
-    top: calc(100% + 8px);
+
+    top:
+        calc(
+            100% + 8px
+        );
+
     left: 0;
-    z-index: 10;
+
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 5px;
+
     background: #0d382a;
+
     border-radius: 12px;
+
     overflow: hidden;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
-    border: 1px solid #216b4c;
 }
 
-.result {
-    padding: 15px;
+.result-item {
+    padding: 12px 15px;
+
     text-align: left;
+
     cursor: pointer;
-    border-bottom: 1px solid #216b4c;
+
+    background: #104330;
+
+    transition:
+        background 0.2s ease;
 }
 
-.result:last-child {
-    border-bottom: none;
+.result-item:hover {
+    background: #1a6147;
 }
 
-.result:hover {
-    background: #18543d;
-}
-
-.result strong {
-    color: white;
-}
-
-.result-artist {
-    display: block;
-    color: #a8cbb9;
-    font-size: 13px;
-    margin-top: 3px;
-}
 
 /* =========================
-   GOMBOK
+   ALSÓ GOMBOK
 ========================= */
 
 .buttons {
-    display: flex;
-    gap: 10px;
-    margin-top: 20px;
+    display: grid;
+
+    grid-template-columns:
+        repeat(2, 1fr);
+
+    gap: 12px;
+
+    margin-top: 18px;
 }
 
 .secondary {
-    flex: 1;
-    padding: 14px;
     border: none;
+
+    padding: 15px 12px;
+
     border-radius: 12px;
-    background: #1f9d55;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1b744c,
+            #248c5b
+        );
+
     color: white;
+
     font-size: 15px;
+
     font-weight: bold;
+
     cursor: pointer;
-    transition: background 0.2s;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
-.secondary:hover {
-    background: #27ae60;
+.secondary:hover:not(:disabled) {
+    transform: translateY(-2px);
+
+    opacity: 0.92;
 }
 
 .secondary:disabled {
     opacity: 0.5;
+
     cursor: not-allowed;
 }
 
-.danger {
-    background: #176b43;
-}
-
-.danger:hover {
-    background: #1f8051;
-}
 
 /* =========================
    ÜZENET
 ========================= */
 
 .message {
-    min-height: 65px;
+    min-height: 24px;
+
     margin-top: 25px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 1.5;
-    color: white;
-}
 
-.correct {
-    color: #6dff9d;
-}
-
-.wrong {
-    color: #ff9b9b;
-}
-
-/* =========================
-   HELYES VÁLASZ
-========================= */
-
-.answer-result {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 10px;
-    width: 100%;
-}
-
-.answer-status {
-    color: #6dff9d;
-    font-size: 18px;
-}
-
-.answer-song {
-    color: white;
-    font-size: 17px;
-    font-weight: bold;
-    text-align: center;
-}
-
-.answer-points {
-    color: #6dff9d;
-    background: rgba(46, 204, 113, 0.12);
-    border: 1px solid rgba(46, 204, 113, 0.3);
-    border-radius: 10px;
-    padding: 7px 14px;
     font-size: 15px;
+
+    font-weight: bold;
+
+    color: #ffb3b3;
 }
+
 
 /* =========================
    KÖVETKEZŐ DAL
@@ -422,84 +684,144 @@ header p {
 
 .next-button {
     width: 100%;
-    padding: 16px;
+
     margin-top: 15px;
+
+    padding: 16px;
+
     border: none;
+
     border-radius: 12px;
-    background: #2ecc71;
+
+    background:
+        linear-gradient(
+            135deg,
+            #35d878,
+            #49d890
+        );
+
     color: white;
+
     font-size: 16px;
+
     font-weight: bold;
+
     cursor: pointer;
-    transition: background 0.2s;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
 .next-button:hover {
-    background: #35d878;
+    transform: translateY(-2px);
+
+    opacity: 0.92;
 }
 
 .hidden {
     display: none !important;
 }
 
+
 /* =========================
-   NÉV ÉS KATEGÓRIA ABLAK (MODAL)
+   MODAL HÁTTÉR
 ========================= */
 
 .modal {
     position: fixed;
-    inset: 0;
+
     z-index: 100;
+
+    inset: 0;
+
     display: flex;
+
     justify-content: center;
+
     align-items: center;
-    background: rgba(0, 0, 0, 0.75);
+
     padding: 20px;
-    backdrop-filter: blur(4px);
+
+    background:
+        rgba(
+            3,
+            20,
+            14,
+            0.8
+        );
+
+    backdrop-filter:
+        blur(8px);
 }
+
+.modal.hidden {
+    display: none;
+}
+
+
+/* =========================
+   MODAL ABLAK
+========================= */
 
 .modal-box {
     width: 100%;
-    max-width: 460px;
-    max-height: 90vh;
-    overflow-y: auto;
+
+    max-width: 500px;
+
     background: #124d3a;
-    border: 1px solid #2f8f63;
-    border-radius: 20px;
+
+    border:
+        1px solid
+        #2f8f63;
+
+    border-radius: 22px;
+
     padding: 30px;
-    text-align: center;
-    box-shadow: 0 25px 50px rgba(0, 0, 0, 0.5);
+
+    box-shadow:
+        0 20px 80px
+        rgba(
+            0,
+            0,
+            0,
+            0.45
+        );
 }
 
 .modal-box h2 {
-    margin-bottom: 8px;
-    font-size: 24px;
+    font-size: 28px;
+
+    margin-bottom: 10px;
 }
 
 .modal-box p {
     color: #b8d8c8;
-    margin-bottom: 20px;
-    font-size: 14px;
-}
 
-.modal-box label {
-    display: block;
-    text-align: left;
-    font-size: 13px;
-    color: #a8cbb9;
-    margin-bottom: 6px;
-    font-weight: bold;
+    line-height: 1.5;
+
+    margin-bottom: 20px;
 }
 
 .modal-box input {
     width: 100%;
-    padding: 14px;
+
+    padding: 15px;
+
     background: #0d382a;
-    border: 1px solid #216b4c;
+
+    border:
+        1px solid
+        #216b4c;
+
     border-radius: 10px;
+
     color: white;
+
     font-size: 16px;
+
     outline: none;
+
     margin-bottom: 20px;
 }
 
@@ -507,75 +829,233 @@ header p {
     border-color: #2ecc71;
 }
 
-/* UJ: Kategória választó gombok */
+
+/* =========================
+   KATEGÓRIA CÍM
+========================= */
+
 .category-title {
     text-align: left;
-    font-size: 13px;
-    color: #a8cbb9;
-    margin-bottom: 8px;
+
+    font-size: 14px;
+
+    color: #d8f5e4;
+
+    margin-bottom: 10px;
+
     font-weight: bold;
 }
 
-.category-selector {
+
+/* =========================
+   JÁTÉKMÓD GOMBOK
+========================= */
+
+.category-buttons {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 8px;
+
+    grid-template-columns:
+        repeat(3, 1fr);
+
+    gap: 10px;
+
     margin-bottom: 24px;
 }
 
-.category-btn {
-    padding: 12px 8px;
-    background: #0d382a;
-    border: 1px solid #216b4c;
-    border-radius: 10px;
-    color: #b8d8c8;
-    font-size: 13px;
-    font-weight: bold;
+.category-button {
+    min-height: 110px;
+
+    padding: 14px 10px;
+
+    display: flex;
+
+    flex-direction: column;
+
+    align-items: center;
+
+    justify-content: center;
+
+    gap: 7px;
+
+    border:
+        1px solid
+        #216b4c;
+
+    border-radius: 14px;
+
+    background:
+        linear-gradient(
+            135deg,
+            #104330,
+            #15523b
+        );
+
+    color: #d8f5e4;
+
     cursor: pointer;
-    transition: all 0.2s ease;
+
+    transition:
+        transform 0.2s ease,
+        border-color 0.2s ease,
+        background 0.2s ease;
 }
 
-.category-btn:hover {
-    background: #16533f;
+.category-button:hover {
+    transform: translateY(-3px);
+
     border-color: #2ecc71;
-    color: white;
+
+    background:
+        linear-gradient(
+            135deg,
+            #15523b,
+            #1d6749
+        );
 }
 
-.category-btn.active {
-    background: #2ecc71;
-    border-color: #2ecc71;
-    color: white;
-    box-shadow: 0 4px 12px rgba(46, 204, 113, 0.3);
+.category-button.active {
+    border-color: #55e890;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f9d55,
+            #2ecc71
+        );
+
+    box-shadow:
+        0 8px 25px
+        rgba(
+            46,
+            204,
+            113,
+            0.2
+        );
 }
+
+.category-icon {
+    font-size: 30px;
+}
+
+.category-button strong {
+    font-size: 15px;
+}
+
+.category-button small {
+    color: #a8cbb9;
+
+    font-size: 11px;
+
+    line-height: 1.3;
+}
+
+.category-button.active small {
+    color: #e4fff0;
+}
+
+
+/* =========================
+   JÁTÉK INDÍTÁSA
+========================= */
 
 #startGameButton {
     width: 100%;
+
     padding: 15px;
+
     border: none;
+
     border-radius: 12px;
-    background: #2ecc71;
+
+    background:
+        linear-gradient(
+            135deg,
+            #1f9d55,
+            #2ecc71
+        );
+
     color: white;
+
     font-weight: bold;
+
     font-size: 16px;
+
     cursor: pointer;
-    transition: background 0.2s;
+
+    transition:
+        transform 0.2s ease,
+        opacity 0.2s ease;
 }
 
 #startGameButton:hover {
-    background: #35d878;
+    transform: translateY(-2px);
+
+    opacity: 0.92;
 }
 
+
 /* =========================
-   MOBIL NÉZET
+   SCROLLBAR
 ========================= */
 
-@media (max-width: 500px) {
+.leaderboard-list::-webkit-scrollbar {
+    width: 6px;
+}
+
+.leaderboard-list::-webkit-scrollbar-track {
+    background: #092d21;
+
+    border-radius: 10px;
+}
+
+.leaderboard-list::-webkit-scrollbar-thumb {
+    background: #2a7857;
+
+    border-radius: 10px;
+}
+
+
+/* =========================
+   TABLET / KISEBB KÉPERNYŐ
+========================= */
+
+@media (max-width: 1050px) {
+
+    body {
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+
+    .game {
+        margin-top: 0;
+    }
+
+    .leaderboard {
+        position: static;
+
+        width: 100%;
+
+        margin-bottom: 28px;
+
+        order: initial;
+    }
+
+}
+
+
+/* =========================
+   MOBIL
+========================= */
+
+@media (max-width: 600px) {
+
     body {
         padding: 10px;
     }
 
     .game {
-        padding: 25px 18px;
+        padding: 24px 16px;
+
         border-radius: 20px;
     }
 
@@ -583,28 +1063,58 @@ header p {
         font-size: 35px;
     }
 
+    .current-category {
+        flex-wrap: wrap;
+    }
+
     .stats {
         gap: 6px;
     }
 
     .stat {
-        padding: 12px 5px;
+        padding: 13px 5px;
     }
 
     .stat strong {
-        font-size: 16px;
+        font-size: 17px;
+    }
+
+    .category-buttons {
+        grid-template-columns: 1fr;
+
+        gap: 8px;
+    }
+
+    .category-button {
+        min-height: 75px;
+
+        flex-direction: row;
+
+        justify-content: flex-start;
+
+        text-align: left;
+
+        padding: 15px;
+    }
+
+    .category-icon {
+        font-size: 26px;
+    }
+
+    .category-button span:last-child {
+        display: flex;
+
+        flex-direction: column;
+
+        gap: 3px;
+    }
+
+    .leaderboard {
+        margin-top: 0;
     }
 
     .buttons {
         gap: 8px;
     }
 
-    .secondary {
-        font-size: 13px;
-        padding: 13px 8px;
-    }
-
-    .category-selector {
-        grid-template-columns: 1fr;
-    }
 }
