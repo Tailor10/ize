@@ -1,201 +1,558 @@
 /* =========================
+   ALAPOK
+========================= */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    background: #071a14;
+    background: radial-gradient(circle at top, #123d2c 0%, #071a14 60%);
+    color: white;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+}
+
+/* =========================
+   FŐ JÁTÉK KONTÉNER
+========================= */
+.game {
+    width: 100%;
+    max-width: 560px;
+    background: #0f2d22;
+    border: 1px solid #1f5a43;
+    border-radius: 20px;
+    padding: 28px 24px;
+    box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+    margin-top: 20px;
+}
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 42px;
+    font-weight: 800;
+    letter-spacing: -1px;
+    margin-bottom: 8px;
+}
+
+header p {
+    color: #a8cbb9;
+    font-size: 14px;
+}
+
+/* =========================
+   STATISZTIKÁK
+========================= */
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    margin: 20px 0;
+}
+
+.stat {
+    background: #0d382a;
+    border: 1px solid #216b4c;
+    border-radius: 12px;
+    padding: 12px;
+    text-align: center;
+}
+
+.stat span {
+    display: block;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #a8cbb9;
+    margin-bottom: 4px;
+}
+
+.stat strong {
+    font-size: 20px;
+    color: white;
+}
+
+/* =========================
+   LEADERBOARD
+========================= */
+.leaderboard {
+    background: #0d382a;
+    border: 1px solid #216b4c;
+    border-radius: 14px;
+    padding: 14px;
+    margin-bottom: 20px;
+}
+
+.leaderboard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 12px;
+}
+
+.leaderboard-header h2 {
+    font-size: 16px;
+}
+
+#changeNameButton {
+    background: transparent;
+    border: 1px solid #216b4c;
+    color: #a8cbb9;
+    padding: 6px 10px;
+    border-radius: 8px;
+    font-size: 11px;
+    cursor: pointer;
+}
+
+#changeNameButton:hover {
+    background: #123d2c;
+    color: white;
+}
+
+.leaderboard-list {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    max-height: 180px;
+    overflow-y: auto;
+}
+
+.leaderboard-loading {
+    color: #a8cbb9;
+    font-size: 13px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* =========================
+   LEJÁTSZÓ
+========================= */
+.player {
+    background: #0d382a;
+    border: 1px solid #216b4c;
+    border-radius: 16px;
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    margin-bottom: 18px;
+    flex-wrap: wrap;
+}
+
+.play-button {
+    width: 56px;
+    height: 56px;
+    border-radius: 50%;
+    border: none;
+    background: #1f9d55;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+    flex-shrink: 0;
+    transition: transform 0.15s, background 0.2s;
+    display: grid;
+    place-items: center;
+}
+
+.play-button:hover:not(:disabled) {
+    background: #27ae60;
+    transform: scale(1.05);
+}
+
+.play-button:disabled {
+    opacity: 0.4;
+    cursor: not-allowed;
+}
+
+.time-display {
+    font-variant-numeric: tabular-nums;
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    gap: 4px;
+    align-items: baseline;
+}
+
+.time-separator, .time-unit {
+    color: #a8cbb9;
+    font-weight: 400;
+}
+
+.progress {
+    width: 100%;
+    height: 6px;
+    background: #123d2c;
+    border-radius: 99px;
+    overflow: hidden;
+}
+
+.progress-bar {
+    height: 100%;
+    width: 0%;
+    background: #2ecc71;
+    border-radius: 99px;
+    transition: width 0.1s linear;
+}
+
+/* =========================
+   KERESŐ
+========================= */
+.search-container {
+    position: relative;
+    margin-bottom: 16px;
+}
+
+#guessInput, #playerNameInput {
+    width: 100%;
+    padding: 14px 16px;
+    border-radius: 12px;
+    border: 2px solid #216b4c;
+    background: #071a14;
+    color: white;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+#guessInput:focus, #playerNameInput:focus {
+    border-color: #2ecc71;
+}
+
+#playerNameInput {
+    margin-top: 10px;
+}
+
+.results {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 8px;
+    background: #0d382a;
+    border: 1px solid #216b4c;
+    border-radius: 12px;
+    overflow: hidden;
+    z-index: 10;
+    display: flex;
+    flex-direction: column;
+}
+
+.result {
+    padding: 12px 14px;
+    cursor: pointer;
+    text-align: left;
+    border: none;
+    background: transparent;
+    color: white;
+    border-bottom: 1px solid #123d2c;
+    transition: background 0.15s;
+}
+
+.result:last-child {
+    border-bottom: none;
+}
+
+.result:hover {
+    background: #123d2c;
+}
+
+/* =========================
+   GOMBOK
+========================= */
+.buttons {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    margin-bottom: 18px;
+}
+
+.secondary {
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #216b4c;
+    background: #0d382a;
+    color: white;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.secondary:hover {
+    background: #123d2c;
+    border-color: #2ecc71;
+}
+
+.secondary.danger {
+    color: #ff9a9a;
+    border-color: #5a2a2a;
+}
+
+.secondary.danger:hover {
+    background: #3d1a1a;
+    border-color: #ff6b6b;
+}
+
+.next-button {
+    width: 100%;
+    padding: 14px;
+    border-radius: 12px;
+    border: none;
+    background: #1f9d55;
+    color: white;
+    font-weight: 700;
+    font-size: 15px;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.next-button:hover {
+    background: #27ae60;
+}
+
+.next-button.hidden {
+    display: none;
+}
+
+.hidden {
+    display: none !important;
+}
+
+/* =========================
+   ÜZENET
+========================= */
+.message {
+    background: #0d382a;
+    border: 1px solid #216b4c;
+    border-radius: 12px;
+    padding: 14px;
+    font-size: 14px;
+    text-align: center;
+    color: #a8cbb9;
+    margin-bottom: 16px;
+    line-height: 1.5;
+}
+
+.message.wrong {
+    border-color: #5a2a2a;
+    background: #2a1515;
+    color: #ffb3b3;
+}
+
+.message.correct {
+    border-color: #216b4c;
+    background: #0f3822;
+    color: #6dff9d;
+}
+
+.answer-result {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.answer-song {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+}
+
+/* =========================
+   MODAL - NÉV BEKÉRÉS
+========================= */
+.modal {
+    position: fixed;
+    inset: 0;
+    background: rgba(3, 15, 11, 0.85);
+    backdrop-filter: blur(8px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+    padding: 20px;
+    transition: opacity 0.25s, visibility 0.25s;
+}
+
+.modal.hidden {
+    opacity: 0;
+    visibility: hidden;
+    pointer-events: none;
+}
+
+.modal-box {
+    width: 100%;
+    max-width: 420px;
+    background: #0f2d22;
+    border: 1px solid #216b4c;
+    border-radius: 20px;
+    padding: 26px 22px;
+    box-shadow: 0 30px 80px rgba(0,0,0,0.6);
+}
+
+.modal-box h2 {
+    font-size: 22px;
+    margin-bottom: 10px;
+}
+
+.modal-box p {
+    color: #a8cbb9;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-bottom: 6px;
+}
+
+#startGameButton {
+    width: 100%;
+    padding: 14px;
+    margin-top: 10px;
+    border-radius: 12px;
+    border: none;
+    background: #1f9d55;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background 0.2s, transform 0.15s;
+}
+
+#startGameButton:hover {
+    background: #27ae60;
+    transform: translateY(-1px);
+}
+
+/* =========================
    KATEGÓRIA VÁLASZTÓ
 ========================= */
 
 .category-title {
     margin-top: 25px;
     margin-bottom: 15px;
-
     font-size: 18px;
-
     text-align: left;
 }
-
 
 .category-buttons {
     display: flex;
-
     flex-direction: column;
-
     gap: 10px;
-
     margin-bottom: 20px;
 }
 
-
 .category-button {
     width: 100%;
-
     display: flex;
-
     align-items: center;
-
     gap: 15px;
-
     padding: 15px;
-
     border-radius: 14px;
-
-    border:
-        2px solid
-        #216b4c;
-
-    background:
-        #0d382a;
-
+    border: 2px solid #216b4c;
+    background: #0d382a;
     color: white;
-
     cursor: pointer;
-
     text-align: left;
-
-    transition:
-        transform 0.2s,
-        background 0.2s,
-        border-color 0.2s;
+    transition: transform 0.2s, background 0.2s, border-color 0.2s;
 }
-
 
 .category-button:hover {
     background: #18543d;
-
     border-color: #2ecc71;
-
     transform: translateY(-2px);
 }
 
-
 .category-button.active {
     background: #176b43;
-
     border-color: #2ecc71;
-
-    box-shadow:
-        0 0 0 2px
-        rgba(46, 204, 113, 0.15);
+    box-shadow: 0 0 0 2px rgba(46, 204, 113, 0.15);
 }
-
 
 .category-icon {
     font-size: 30px;
-
     width: 42px;
-
     text-align: center;
 }
 
-
 .category-button span:last-child {
     display: flex;
-
     flex-direction: column;
-
     gap: 4px;
 }
-
 
 .category-button strong {
     font-size: 16px;
 }
 
-
 .category-button small {
     color: #a8cbb9;
-
     font-size: 12px;
 }
-
 
 /* =========================
    AKTUÁLIS JÁTÉKMÓD
 ========================= */
-
 .current-category {
     display: flex;
-
     align-items: center;
-
     justify-content: center;
-
     flex-wrap: wrap;
-
     gap: 8px;
-
     margin-top: 18px;
-
     padding: 10px 14px;
-
     background: #0d382a;
-
-    border:
-        1px solid
-        #216b4c;
-
+    border: 1px solid #216b4c;
     border-radius: 12px;
-
     font-size: 13px;
 }
-
 
 .current-category span {
     color: #a8cbb9;
 }
 
-
 .current-category strong {
     color: #6dff9d;
 }
 
-
 #changeCategoryButton {
     margin-left: 5px;
-
     padding: 6px 10px;
-
     border: none;
-
     border-radius: 8px;
-
     background: #1f9d55;
-
     color: white;
-
     font-size: 12px;
-
     font-weight: bold;
-
     cursor: pointer;
 }
-
 
 #changeCategoryButton:hover {
     background: #27ae60;
 }
 
-
 /* =========================
    RESZPONZÍV
 ========================= */
-
 @media (max-width: 500px) {
-
+    body {
+        padding: 10px;
+    }
     .game {
         padding: 22px 16px;
     }
-
-
     header h1 {
         font-size: 35px;
     }
-
-
     .category-button {
         padding: 13px;
     }
-
-
     .category-icon {
         font-size: 25px;
     }
-
 }
