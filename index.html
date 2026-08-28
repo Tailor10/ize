@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="hu">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Songless</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <!-- JÁTÉK INDÍTÁSA -->
+
+    <div id="nameModal" class="modal">
+
+        <div class="modal-box">
+
+            <h2>🎵 Üdv a Hallod?-ban!</h2>
+
+            <p>
+                Add meg a neved, majd válaszd ki,
+                milyen zenéket szeretnél kitalálni.
+            </p>
+
+
+            <input
+                id="playerNameInput"
+                type="text"
+                maxlength="20"
+                placeholder="Például: Ádám"
+                autocomplete="off">
+
+
+            <h3 class="category-title">
+                Milyen zenéket szeretnél?
+            </h3>
+
+
+            <div class="category-buttons">
+
+                <button
+                    type="button"
+                    class="category-button"
+                    data-category="magyar">
+
+                    <span class="category-icon">🇭🇺</span>
+
+                    <span>
+                        <strong>Magyar</strong>
+                        <small>Magyar előadók és dalok</small>
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="category-button"
+                    data-category="kulfoldi">
+
+                    <span class="category-icon">🌍</span>
+
+                    <span>
+                        <strong>Külföldi</strong>
+                        <small>Nemzetközi előadók és dalok</small>
+                    </span>
+
+                </button>
+
+
+                <button
+                    type="button"
+                    class="category-button active"
+                    data-category="vegyes">
+
+                    <span class="category-icon">🎲</span>
+
+                    <span>
+                        <strong>Vegyes</strong>
+                        <small>Magyar és külföldi zenék</small>
+                    </span>
+
+                </button>
+
+            </div>
+
+
+            <button id="startGameButton">
+
+                Játék indítása ▶
+
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- FŐ JÁTÉK -->
+
+    <main class="game">
+
+
+        <header>
+
+            <h1>🎵 Hallod?</h1>
+
+            <p id="gameSubtitle">
+
+                Találd ki a dalt minél kevesebb hallgatásból!
+
+            </p>
+
+        </header>
+
+
+
+        <!-- KATEGÓRIA -->
+
+        <div class="current-category">
+
+            <span>Játékmód:</span>
+
+            <strong id="currentCategory">
+                🎲 Vegyes
+            </strong>
+
+            <button
+                id="changeCategoryButton"
+                type="button">
+
+                Módosítás
+
+            </button>
+
+        </div>
+
+
+
+        <!-- STATISZTIKÁK -->
+
+        <section class="stats">
+
+            <div class="stat">
+
+                <span>Pontszám</span>
+
+                <strong id="score">
+                    0
+                </strong>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span>Streak</span>
+
+                <strong id="streak">
+                    0 🔥
+                </strong>
+
+            </div>
+
+
+            <div class="stat">
+
+                <span>Kör</span>
+
+                <strong id="round">
+                    1
+                </strong>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LEADERBOARD -->
+
+        <section class="leaderboard">
+
+            <div class="leaderboard-header">
+
+                <h2>🏆 Ranglista</h2>
+
+                <button
+                    id="changeNameButton"
+                    type="button">
+
+                    Név módosítása
+
+                </button>
+
+            </div>
+
+
+            <div
+                id="leaderboardList"
+                class="leaderboard-list">
+
+                <div class="leaderboard-loading">
+
+                    Ranglista betöltése...
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- LEJÁTSZÓ -->
+
+        <section class="player">
+
+            <button
+                id="playButton"
+                class="play-button"
+                disabled>
+
+                ▶
+
+            </button>
+
+
+            <div class="time-display">
+
+                <span id="currentTime">
+                    0.0
+                </span>
+
+                <span class="time-separator">
+                    /
+                </span>
+
+                <span id="listenTime">
+                    0.5
+                </span>
+
+                <span class="time-unit">
+                    mp
+                </span>
+
+            </div>
+
+
+            <div class="progress">
+
+                <div
+                    id="progressBar"
+                    class="progress-bar">
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- KERESŐ -->
+
+        <section class="search-container">
+
+            <input
+                id="guessInput"
+                type="text"
+                placeholder="Írd be a dal vagy előadó nevét..."
+                autocomplete="off">
+
+            <div
+                id="results"
+                class="results">
+
+            </div>
+
+        </section>
+
+
+
+        <!-- GOMBOK -->
+
+        <section class="buttons">
+
+            <button
+                id="giveUpButton"
+                class="secondary danger">
+
+                Feladom
+
+            </button>
+
+
+            <button
+                id="moreButton"
+                class="secondary">
+
+                Többet hallgatok
+
+            </button>
+
+        </section>
+
+
+
+        <!-- ÜZENET -->
+
+        <div
+            id="message"
+            class="message">
+
+            Válaszd ki a játékmódot!
+
+        </div>
+
+
+
+        <!-- KÖVETKEZŐ DAL -->
+
+        <button
+            id="nextButton"
+            class="next-button hidden">
+
+            Következő dal →
+
+        </button>
+
+    </main>
+
+
+
+    <script
+        type="module"
+        src="app.js">
+
+    </script>
+
+</body>
+
+</html>

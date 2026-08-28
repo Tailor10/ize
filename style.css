@@ -1,0 +1,201 @@
+/* =========================
+   KATEGÓRIA VÁLASZTÓ
+========================= */
+
+.category-title {
+    margin-top: 25px;
+    margin-bottom: 15px;
+
+    font-size: 18px;
+
+    text-align: left;
+}
+
+
+.category-buttons {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 10px;
+
+    margin-bottom: 20px;
+}
+
+
+.category-button {
+    width: 100%;
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 15px;
+
+    padding: 15px;
+
+    border-radius: 14px;
+
+    border:
+        2px solid
+        #216b4c;
+
+    background:
+        #0d382a;
+
+    color: white;
+
+    cursor: pointer;
+
+    text-align: left;
+
+    transition:
+        transform 0.2s,
+        background 0.2s,
+        border-color 0.2s;
+}
+
+
+.category-button:hover {
+    background: #18543d;
+
+    border-color: #2ecc71;
+
+    transform: translateY(-2px);
+}
+
+
+.category-button.active {
+    background: #176b43;
+
+    border-color: #2ecc71;
+
+    box-shadow:
+        0 0 0 2px
+        rgba(46, 204, 113, 0.15);
+}
+
+
+.category-icon {
+    font-size: 30px;
+
+    width: 42px;
+
+    text-align: center;
+}
+
+
+.category-button span:last-child {
+    display: flex;
+
+    flex-direction: column;
+
+    gap: 4px;
+}
+
+
+.category-button strong {
+    font-size: 16px;
+}
+
+
+.category-button small {
+    color: #a8cbb9;
+
+    font-size: 12px;
+}
+
+
+/* =========================
+   AKTUÁLIS JÁTÉKMÓD
+========================= */
+
+.current-category {
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 8px;
+
+    margin-top: 18px;
+
+    padding: 10px 14px;
+
+    background: #0d382a;
+
+    border:
+        1px solid
+        #216b4c;
+
+    border-radius: 12px;
+
+    font-size: 13px;
+}
+
+
+.current-category span {
+    color: #a8cbb9;
+}
+
+
+.current-category strong {
+    color: #6dff9d;
+}
+
+
+#changeCategoryButton {
+    margin-left: 5px;
+
+    padding: 6px 10px;
+
+    border: none;
+
+    border-radius: 8px;
+
+    background: #1f9d55;
+
+    color: white;
+
+    font-size: 12px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+#changeCategoryButton:hover {
+    background: #27ae60;
+}
+
+
+/* =========================
+   RESZPONZÍV
+========================= */
+
+@media (max-width: 500px) {
+
+    .game {
+        padding: 22px 16px;
+    }
+
+
+    header h1 {
+        font-size: 35px;
+    }
+
+
+    .category-button {
+        padding: 13px;
+    }
+
+
+    .category-icon {
+        font-size: 25px;
+    }
+
+}
