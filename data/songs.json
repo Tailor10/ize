@@ -1,4 +1,3 @@
-
 [
   {
     "id": 1,
@@ -9,325 +8,325 @@
   {
     "id": 2,
     "artist": "Azahriah",
-    "title": "cipoe",
+    "title": "Habibi",
     "category": "magyar"
   },
   {
     "id": 3,
     "artist": "Azahriah",
-    "title": "RÉT",
+    "title": "introvertált dal",
     "category": "magyar"
   },
   {
     "id": 4,
     "artist": "Azahriah",
-    "title": "3korty",
+    "title": "figyelj",
     "category": "magyar"
   },
   {
     "id": 5,
     "artist": "Azahriah",
-    "title": "Marian",
+    "title": "RÉT",
     "category": "magyar"
   },
   {
     "id": 6,
-    "artist": "Dzsúdló",
-    "title": "SPANOM",
+    "artist": "DESH",
+    "title": "KUKÁSAUTÓ",
     "category": "magyar"
   },
   {
     "id": 7,
-    "artist": "Dzsúdló",
-    "title": "LEJ",
+    "artist": "DESH",
+    "title": "YAKUZA",
     "category": "magyar"
   },
   {
     "id": 8,
-    "artist": "Dzsúdló",
-    "title": "HAJRITKÍTO",
+    "artist": "DESH",
+    "title": "Talpra cigányok",
     "category": "magyar"
   },
   {
     "id": 9,
+    "artist": "DESH",
+    "title": "Bakker",
+    "category": "magyar"
+  },
+  {
+    "id": 10,
+    "artist": "DESH",
+    "title": "HABIBI",
+    "category": "magyar"
+  },
+  {
+    "id": 11,
+    "artist": "Dzsúdló",
+    "title": "Spanom",
+    "category": "magyar"
+  },
+  {
+    "id": 12,
+    "artist": "Dzsúdló",
+    "title": "Lej",
+    "category": "magyar"
+  },
+  {
+    "id": 13,
+    "artist": "Dzsúdló",
+    "title": "Sötét",
+    "category": "magyar"
+  },
+  {
+    "id": 14,
     "artist": "Dzsúdló",
     "title": "Para",
     "category": "magyar"
   },
   {
-    "id": 10,
+    "id": 15,
     "artist": "Dzsúdló",
     "title": "Rosszkor",
     "category": "magyar"
   },
   {
-    "id": 11,
-    "artist": "Krúbi",
-    "title": "Pesti est",
-    "category": "magyar"
-  },
-  {
-    "id": 12,
-    "artist": "Krúbi",
-    "title": "Nehézlábérzés",
-    "category": "magyar"
-  },
-  {
-    "id": 13,
-    "artist": "Krúbi",
-    "title": "Orbán, verd ki a Ferinek",
-    "category": "magyar"
-  },
-  {
-    "id": 14,
-    "artist": "Krúbi",
-    "title": "Jéghideg",
-    "category": "magyar"
-  },
-  {
-    "id": 15,
-    "artist": "Krúbi",
-    "title": "Parti",
-    "category": "magyar"
-  },
-  {
     "id": 16,
-    "artist": "Carson Coma",
-    "title": "Pók",
-    "category": "magyar"
-  },
-  {
-    "id": 17,
-    "artist": "Carson Coma",
-    "title": "Feldobom a követ",
-    "category": "magyar"
-  },
-  {
-    "id": 18,
-    "artist": "Carson Coma",
-    "title": "Immunissá válunk",
-    "category": "magyar"
-  },
-  {
-    "id": 19,
-    "artist": "Carson Coma",
-    "title": "Hugi",
-    "category": "magyar"
-  },
-  {
-    "id": 20,
-    "artist": "Carson Coma",
-    "title": "Fantom rezgés",
-    "category": "magyar"
-  },
-  {
-    "id": 21,
-    "artist": "Bagossy Brothers Company",
-    "title": "Olyan ő",
-    "category": "magyar"
-  },
-  {
-    "id": 22,
-    "artist": "Bagossy Brothers Company",
-    "title": "Visszajövök",
-    "category": "magyar"
-  },
-  {
-    "id": 23,
-    "artist": "Bagossy Brothers Company",
-    "title": "Balaton",
-    "category": "magyar"
-  },
-  {
-    "id": 24,
-    "artist": "Bagossy Brothers Company",
-    "title": "Van egy ház",
-    "category": "magyar"
-  },
-  {
-    "id": 25,
-    "artist": "Bagossy Brothers Company",
-    "title": "Csak az ég tudja",
-    "category": "magyar"
-  },
-  {
-    "id": 26,
-    "artist": "Wellhello",
-    "title": "Rakpart",
-    "category": "magyar"
-  },
-  {
-    "id": 27,
-    "artist": "Wellhello",
-    "title": "Apuveddmeg",
-    "category": "magyar"
-  },
-  {
-    "id": 28,
-    "artist": "Wellhello",
-    "title": "Emlékszem Sopronban",
-    "category": "magyar"
-  },
-  {
-    "id": 29,
-    "artist": "Wellhello",
-    "title": "Sohavégetnemérős",
-    "category": "magyar"
-  },
-  {
-    "id": 30,
-    "artist": "Wellhello",
-    "title": "Diéta",
-    "category": "magyar"
-  },
-  {
-    "id": 31,
-    "artist": "Halott Pénz",
-    "title": "Darabokra törted a szívem",
-    "category": "magyar"
-  },
-  {
-    "id": 32,
-    "artist": "Halott Pénz",
-    "title": "Valami van a levegőben",
-    "category": "magyar"
-  },
-  {
-    "id": 33,
-    "artist": "Halott Pénz",
-    "title": "Ugyanúgy hallasz",
-    "category": "magyar"
-  },
-  {
-    "id": 34,
-    "artist": "Halott Pénz",
-    "title": "Amikor feladnád",
-    "category": "magyar"
-  },
-  {
-    "id": 35,
-    "artist": "Halott Pénz",
-    "title": "Minden szobába kell álom",
-    "category": "magyar"
-  },
-  {
-    "id": 36,
-    "artist": "Analog Balaton",
-    "title": "Rajtam",
-    "category": "magyar"
-  },
-  {
-    "id": 37,
-    "artist": "Analog Balaton",
-    "title": "Könnyű",
-    "category": "magyar"
-  },
-  {
-    "id": 38,
-    "artist": "Analog Balaton",
-    "title": "Vissza",
-    "category": "magyar"
-  },
-  {
-    "id": 39,
-    "artist": "Analog Balaton",
-    "title": "Játszik",
-    "category": "magyar"
-  },
-  {
-    "id": 40,
-    "artist": "Analog Balaton",
-    "title": "Fent",
-    "category": "magyar"
-  },
-  {
-    "id": 41,
-    "artist": "Follow The Flow",
-    "title": "Nem fogadok szót",
-    "category": "magyar"
-  },
-  {
-    "id": 42,
-    "artist": "Follow The Flow",
-    "title": "Gavallér",
-    "category": "magyar"
-  },
-  {
-    "id": 43,
-    "artist": "Follow The Flow",
-    "title": "Anyám mondta",
-    "category": "magyar"
-  },
-  {
-    "id": 44,
-    "artist": "Follow The Flow",
-    "title": "Régi mese",
-    "category": "magyar"
-  },
-  {
-    "id": 45,
-    "artist": "Follow The Flow",
-    "title": "Űrerdő",
-    "category": "magyar"
-  },
-  {
-    "id": 46,
-    "artist": "Beton.Hofi",
-    "title": "LAUF",
-    "category": "magyar"
-  },
-  {
-    "id": 47,
-    "artist": "Beton.Hofi",
-    "title": "Kifekszem",
-    "category": "magyar"
-  },
-  {
-    "id": 48,
     "artist": "Beton.Hofi",
     "title": "Bagira",
     "category": "magyar"
   },
   {
-    "id": 49,
+    "id": 17,
     "artist": "Beton.Hofi",
-    "title": "Kirúgjuk a szart",
+    "title": "Kőbánya alsó",
     "category": "magyar"
   },
   {
-    "id": 50,
+    "id": 18,
     "artist": "Beton.Hofi",
-    "title": "KÁGYULA",
+    "title": "Színész",
     "category": "magyar"
   },
   {
-    "id": 51,
+    "id": 19,
+    "artist": "Beton.Hofi",
+    "title": "Be vagyok zárva",
+    "category": "magyar"
+  },
+  {
+    "id": 20,
+    "artist": "Beton.Hofi",
+    "title": "LAUF",
+    "category": "magyar"
+  },
+  {
+    "id": 21,
+    "artist": "T. Danny",
+    "title": "Megmondtam",
+    "category": "magyar"
+  },
+  {
+    "id": 22,
+    "artist": "T. Danny",
+    "title": "Yin Yang",
+    "category": "magyar"
+  },
+  {
+    "id": 23,
+    "artist": "T. Danny",
+    "title": "Utoljára sírtam",
+    "category": "magyar"
+  },
+  {
+    "id": 24,
+    "artist": "T. Danny",
+    "title": "Velem sírsz",
+    "category": "magyar"
+  },
+  {
+    "id": 25,
+    "artist": "T. Danny",
+    "title": "Csak te",
+    "category": "magyar"
+  },
+  {
+    "id": 26,
+    "artist": "Manuel",
+    "title": "Messziről jöttem",
+    "category": "magyar"
+  },
+  {
+    "id": 27,
+    "artist": "Manuel",
+    "title": "Isabella",
+    "category": "magyar"
+  },
+  {
+    "id": 28,
+    "artist": "Manuel",
+    "title": "Téged",
+    "category": "magyar"
+  },
+  {
+    "id": 29,
+    "artist": "Manuel",
+    "title": "Képkockák",
+    "category": "magyar"
+  },
+  {
+    "id": 30,
+    "artist": "Manuel",
+    "title": "Sötétben",
+    "category": "magyar"
+  },
+  {
+    "id": 31,
     "artist": "ValMar",
     "title": "Úristen",
     "category": "magyar"
   },
   {
-    "id": 52,
+    "id": 32,
     "artist": "ValMar",
     "title": "Szinonimák",
     "category": "magyar"
   },
   {
-    "id": 53,
+    "id": 33,
     "artist": "ValMar",
     "title": "De mikor",
     "category": "magyar"
   },
   {
-    "id": 54,
+    "id": 34,
     "artist": "ValMar",
-    "title": "Legszebb emlék",
+    "title": "Éget a nap",
+    "category": "magyar"
+  },
+  {
+    "id": 35,
+    "artist": "ValMar",
+    "title": "Hogy tetszik",
+    "category": "magyar"
+  },
+  {
+    "id": 36,
+    "artist": "Wellhello",
+    "title": "Rakpart",
+    "category": "magyar"
+  },
+  {
+    "id": 37,
+    "artist": "Wellhello",
+    "title": "Apuveddmeg",
+    "category": "magyar"
+  },
+  {
+    "id": 38,
+    "artist": "Wellhello",
+    "title": "Sohavégetnemérős",
+    "category": "magyar"
+  },
+  {
+    "id": 39,
+    "artist": "Wellhello",
+    "title": "Emlékszem Sopronban",
+    "category": "magyar"
+  },
+  {
+    "id": 40,
+    "artist": "Wellhello",
+    "title": "Barátom",
+    "category": "magyar"
+  },
+  {
+    "id": 41,
+    "artist": "Halott Pénz",
+    "title": "Darabokra törted a szívem",
+    "category": "magyar"
+  },
+  {
+    "id": 42,
+    "artist": "Halott Pénz",
+    "title": "Valami van a levegőben",
+    "category": "magyar"
+  },
+  {
+    "id": 43,
+    "artist": "Halott Pénz",
+    "title": "Ugyanúgy hallasz",
+    "category": "magyar"
+  },
+  {
+    "id": 44,
+    "artist": "Halott Pénz",
+    "title": "Amikor feladnád",
+    "category": "magyar"
+  },
+  {
+    "id": 45,
+    "artist": "Halott Pénz",
+    "title": "Minden szobába kell álom",
+    "category": "magyar"
+  },
+  {
+    "id": 46,
+    "artist": "Follow The Flow",
+    "title": "Nem fogadok szót",
+    "category": "magyar"
+  },
+  {
+    "id": 47,
+    "artist": "Follow The Flow",
+    "title": "Anyám mondta",
+    "category": "magyar"
+  },
+  {
+    "id": 48,
+    "artist": "Follow The Flow",
+    "title": "Maradok távol",
+    "category": "magyar"
+  },
+  {
+    "id": 49,
+    "artist": "Follow The Flow",
+    "title": "Gavallér",
+    "category": "magyar"
+  },
+  {
+    "id": 50,
+    "artist": "Follow The Flow",
+    "title": "Régi mese",
+    "category": "magyar"
+  },
+  {
+    "id": 51,
+    "artist": "Bagossy Brothers Company",
+    "title": "Olyan ő",
+    "category": "magyar"
+  },
+  {
+    "id": 52,
+    "artist": "Bagossy Brothers Company",
+    "title": "Visszajövök",
+    "category": "magyar"
+  },
+  {
+    "id": 53,
+    "artist": "Bagossy Brothers Company",
+    "title": "Balaton",
+    "category": "magyar"
+  },
+  {
+    "id": 54,
+    "artist": "Bagossy Brothers Company",
+    "title": "Van egy ház",
     "category": "magyar"
   },
   {
     "id": 55,
-    "artist": "ValMar",
-    "title": "Hogy tetszik",
+    "artist": "Bagossy Brothers Company",
+    "title": "Vakít a kék",
     "category": "magyar"
   },
   {
@@ -357,2048 +356,1417 @@
   {
     "id": 60,
     "artist": "Majka",
-    "title": "Konkurencia",
+    "title": "Füttyös",
     "category": "magyar"
   },
   {
     "id": 61,
-    "artist": "Punnany Massif",
-    "title": "Élvezd",
+    "artist": "ByeAlex és a Slepp",
+    "title": "Kedvesem",
     "category": "magyar"
   },
   {
     "id": 62,
-    "artist": "Punnany Massif",
-    "title": "Mosoly",
-    "category": "magyar"
-  },
-  {
-    "id": 63,
-    "artist": "Punnany Massif",
-    "title": "Fel-le",
-    "category": "magyar"
-  },
-  {
-    "id": 64,
-    "artist": "Punnany Massif",
-    "title": "Lávkóma",
-    "category": "magyar"
-  },
-  {
-    "id": 65,
-    "artist": "Punnany Massif",
-    "title": "Akkor is",
-    "category": "magyar"
-  },
-  {
-    "id": 66,
-    "artist": "Tankcsapda",
-    "title": "Adjon az ég",
-    "category": "magyar"
-  },
-  {
-    "id": 67,
-    "artist": "Tankcsapda",
-    "title": "Mennyország tourist",
-    "category": "magyar"
-  },
-  {
-    "id": 68,
-    "artist": "Tankcsapda",
-    "title": "Be vagyok rúgva",
-    "category": "magyar"
-  },
-  {
-    "id": 69,
-    "artist": "Tankcsapda",
-    "title": "Egyszerű dal",
-    "category": "magyar"
-  },
-  {
-    "id": 70,
-    "artist": "Tankcsapda",
-    "title": "A legjobb méreg",
-    "category": "magyar"
-  },
-  {
-    "id": 71,
-    "artist": "Quimby",
-    "title": "Most múlik pontosan",
-    "category": "magyar"
-  },
-  {
-    "id": 72,
-    "artist": "Quimby",
-    "title": "Autó egy szerpentinen",
-    "category": "magyar"
-  },
-  {
-    "id": 73,
-    "artist": "Quimby",
-    "title": "Ajjajjaj",
-    "category": "magyar"
-  },
-  {
-    "id": 74,
-    "artist": "Quimby",
-    "title": "Sehol se talállak",
-    "category": "magyar"
-  },
-  {
-    "id": 75,
-    "artist": "Quimby",
-    "title": "Halleluja",
-    "category": "magyar"
-  },
-  {
-    "id": 76,
-    "artist": "Kispál és a Borz",
-    "title": "Emese",
-    "category": "magyar"
-  },
-  {
-    "id": 77,
-    "artist": "Kispál és a Borz",
-    "title": "Csillag vagy fecske",
-    "category": "magyar"
-  },
-  {
-    "id": 78,
-    "artist": "Kispál és a Borz",
-    "title": "Ha az életben",
-    "category": "magyar"
-  },
-  {
-    "id": 79,
-    "artist": "Kispál és a Borz",
-    "title": "Szőkített nő",
-    "category": "magyar"
-  },
-  {
-    "id": 80,
-    "artist": "Kispál és a Borz",
-    "title": "Zsákmányállat",
-    "category": "magyar"
-  },
-  {
-    "id": 81,
-    "artist": "Lóci Játszik",
-    "title": "Szív",
-    "category": "magyar"
-  },
-  {
-    "id": 82,
-    "artist": "Lóci Játszik",
-    "title": "Van-e helyed",
-    "category": "magyar"
-  },
-  {
-    "id": 83,
-    "artist": "Lóci Játszik",
-    "title": "Kávé",
-    "category": "magyar"
-  },
-  {
-    "id": 84,
-    "artist": "Lóci Játszik",
-    "title": "Rúzs",
-    "category": "magyar"
-  },
-  {
-    "id": 85,
-    "artist": "Lóci Játszik",
-    "title": "Remélem tudod",
-    "category": "magyar"
-  },
-  {
-    "id": 86,
-    "artist": "Irie Maffia",
-    "title": "Hajnali kör",
-    "category": "magyar"
-  },
-  {
-    "id": 87,
-    "artist": "Irie Maffia",
-    "title": "Bajnok",
-    "category": "magyar"
-  },
-  {
-    "id": 88,
-    "artist": "Irie Maffia",
-    "title": "Pont ilyen ház",
-    "category": "magyar"
-  },
-  {
-    "id": 89,
-    "artist": "Irie Maffia",
-    "title": "Easy as One Two Three",
-    "category": "magyar"
-  },
-  {
-    "id": 90,
-    "artist": "Irie Maffia",
-    "title": "Nagyon jó lesz",
-    "category": "magyar"
-  },
-  {
-    "id": 91,
-    "artist": "Desh",
-    "title": "Yakuza",
-    "category": "magyar"
-  },
-  {
-    "id": 92,
-    "artist": "Desh",
-    "title": "Rollin",
-    "category": "magyar"
-  },
-  {
-    "id": 93,
-    "artist": "Desh",
-    "title": "Habibi",
-    "category": "magyar"
-  },
-  {
-    "id": 94,
-    "artist": "Desh",
-    "title": "Kukásautó",
-    "category": "magyar"
-  },
-  {
-    "id": 95,
-    "artist": "Desh",
-    "title": "Petra",
-    "category": "magyar"
-  },
-  {
-    "id": 96,
-    "artist": "T. Danny",
-    "title": "Utoljára sírtam",
-    "category": "magyar"
-  },
-  {
-    "id": 97,
-    "artist": "T. Danny",
-    "title": "Megmondtam",
-    "category": "magyar"
-  },
-  {
-    "id": 98,
-    "artist": "T. Danny",
-    "title": "Szívtelen",
-    "category": "magyar"
-  },
-  {
-    "id": 99,
-    "artist": "T. Danny",
-    "title": "No para",
-    "category": "magyar"
-  },
-  {
-    "id": 100,
-    "artist": "T. Danny",
-    "title": "Csak te",
-    "category": "magyar"
-  },
-  {
-    "id": 101,
-    "artist": "Manuel",
-    "title": "Isabella",
-    "category": "magyar"
-  },
-  {
-    "id": 102,
-    "artist": "Manuel",
-    "title": "Képkockák",
-    "category": "magyar"
-  },
-  {
-    "id": 103,
-    "artist": "Manuel",
-    "title": "Téged",
-    "category": "magyar"
-  },
-  {
-    "id": 104,
-    "artist": "Manuel",
-    "title": "Messziről jöttem",
-    "category": "magyar"
-  },
-  {
-    "id": 105,
-    "artist": "Manuel",
-    "title": "Sötétben",
-    "category": "magyar"
-  },
-  {
-    "id": 106,
     "artist": "ByeAlex és a Slepp",
     "title": "Még mindig",
     "category": "magyar"
   },
   {
-    "id": 107,
+    "id": 63,
     "artist": "ByeAlex és a Slepp",
-    "title": "Babylon",
+    "title": "Hullik",
     "category": "magyar"
   },
   {
-    "id": 108,
-    "artist": "ByeAlex és a Slepp",
-    "title": "Szélvész",
-    "category": "magyar"
-  },
-  {
-    "id": 109,
+    "id": 64,
     "artist": "ByeAlex és a Slepp",
     "title": "Emlékszem",
     "category": "magyar"
   },
   {
-    "id": 110,
+    "id": 65,
     "artist": "ByeAlex és a Slepp",
-    "title": "Testünkben",
+    "title": "Fekete",
     "category": "magyar"
   },
   {
-    "id": 111,
-    "artist": "Margaret Island",
-    "title": "Eső",
+    "id": 66,
+    "artist": "Carson Coma",
+    "title": "Feldobom a követ",
     "category": "magyar"
   },
   {
-    "id": 112,
-    "artist": "Margaret Island",
-    "title": "Házszám",
+    "id": 67,
+    "artist": "Carson Coma",
+    "title": "Pók",
     "category": "magyar"
   },
   {
-    "id": 113,
-    "artist": "Margaret Island",
-    "title": "Engedd, hogy szabad legyek",
+    "id": 68,
+    "artist": "Carson Coma",
+    "title": "Immunissá válunk",
     "category": "magyar"
   },
   {
-    "id": 114,
-    "artist": "Margaret Island",
-    "title": "Hol van az a lány",
+    "id": 69,
+    "artist": "Carson Coma",
+    "title": "Hobbihajótörött",
     "category": "magyar"
   },
   {
-    "id": 115,
-    "artist": "Margaret Island",
-    "title": "Házam",
+    "id": 70,
+    "artist": "Carson Coma",
+    "title": "Frida Kahlo",
     "category": "magyar"
   },
   {
-    "id": 116,
-    "artist": "Parno Graszt",
-    "title": "Még nem elég",
+    "id": 71,
+    "artist": "Krúbi",
+    "title": "Pesti est",
     "category": "magyar"
   },
   {
-    "id": 117,
-    "artist": "Parno Graszt",
-    "title": "Bohém",
+    "id": 72,
+    "artist": "Krúbi",
+    "title": "Ne sírj",
     "category": "magyar"
   },
   {
-    "id": 118,
-    "artist": "Parno Graszt",
-    "title": "Páva",
+    "id": 73,
+    "artist": "Krúbi",
+    "title": "Orbán, verd ki a Ferinek",
     "category": "magyar"
   },
   {
-    "id": 119,
-    "artist": "Parno Graszt",
-    "title": "Rávágok a zongorára",
+    "id": 74,
+    "artist": "Krúbi",
+    "title": "Jéghideg",
     "category": "magyar"
   },
   {
-    "id": 120,
-    "artist": "Parno Graszt",
-    "title": "Már nem szédülök",
+    "id": 75,
+    "artist": "Krúbi",
+    "title": "Parti",
     "category": "magyar"
   },
   {
-    "id": 121,
-    "artist": "Aurevoir.",
-    "title": "Papacita",
+    "id": 76,
+    "artist": "Quimby",
+    "title": "Most múlik pontosan",
     "category": "magyar"
   },
   {
-    "id": 122,
-    "artist": "Aurevoir.",
-    "title": "Letisztul",
+    "id": 77,
+    "artist": "Quimby",
+    "title": "Autó egy szerpentinen",
     "category": "magyar"
   },
   {
-    "id": 123,
-    "artist": "Aurevoir.",
-    "title": "Kicsi csillag",
+    "id": 78,
+    "artist": "Quimby",
+    "title": "Ajjajjaj",
     "category": "magyar"
   },
   {
-    "id": 124,
-    "artist": "Aurevoir.",
-    "title": "Agrabah",
+    "id": 79,
+    "artist": "Quimby",
+    "title": "Sehol se talállak",
     "category": "magyar"
   },
   {
-    "id": 125,
-    "artist": "Aurevoir.",
-    "title": "Indián",
+    "id": 80,
+    "artist": "Quimby",
+    "title": "Magam adom",
     "category": "magyar"
   },
   {
-    "id": 126,
-    "artist": "Csaknekedkislány",
-    "title": "Tihany",
+    "id": 81,
+    "artist": "Tankcsapda",
+    "title": "Mennyország tourist",
     "category": "magyar"
   },
   {
-    "id": 127,
-    "artist": "Csaknekedkislány",
-    "title": "Pest ideges",
+    "id": 82,
+    "artist": "Tankcsapda",
+    "title": "Be vagyok rúgva",
     "category": "magyar"
   },
   {
-    "id": 128,
-    "artist": "Csaknekedkislány",
-    "title": "Mindenki valakié",
+    "id": 83,
+    "artist": "Tankcsapda",
+    "title": "Adjon az ég",
     "category": "magyar"
   },
   {
-    "id": 129,
-    "artist": "Csaknekedkislány",
-    "title": "Éjszaka",
+    "id": 84,
+    "artist": "Tankcsapda",
+    "title": "Egyszerű dal",
     "category": "magyar"
   },
   {
-    "id": 130,
-    "artist": "Csaknekedkislány",
-    "title": "Kiskifli",
+    "id": 85,
+    "artist": "Tankcsapda",
+    "title": "A legjobb méreg",
     "category": "magyar"
   },
   {
-    "id": 131,
-    "artist": "Elefánt",
-    "title": "Egzotikus",
+    "id": 86,
+    "artist": "Kowalsky meg a Vega",
+    "title": "Amilyen hülye vagy, úgy szeretlek",
     "category": "magyar"
   },
   {
-    "id": 132,
-    "artist": "Elefánt",
-    "title": "Kerékpár",
+    "id": 87,
+    "artist": "Kowalsky meg a Vega",
+    "title": "Egy világon át",
     "category": "magyar"
   },
   {
-    "id": 133,
-    "artist": "Elefánt",
-    "title": "Plasztik",
+    "id": 88,
+    "artist": "Kowalsky meg a Vega",
+    "title": "Hála veled",
     "category": "magyar"
   },
   {
-    "id": 134,
-    "artist": "Elefánt",
-    "title": "Nagy K",
+    "id": 89,
+    "artist": "Kowalsky meg a Vega",
+    "title": "Tombol a hold",
     "category": "magyar"
   },
   {
-    "id": 135,
-    "artist": "Elefánt",
-    "title": "Nem félek",
+    "id": 90,
+    "artist": "Kowalsky meg a Vega",
+    "title": "Nem igaz",
     "category": "magyar"
   },
   {
-    "id": 136,
-    "artist": "Esti Kornél",
-    "title": "Boldogság, te kurva",
-    "category": "magyar"
-  },
-  {
-    "id": 137,
-    "artist": "Esti Kornél",
-    "title": "Éjszaka van",
-    "category": "magyar"
-  },
-  {
-    "id": 138,
-    "artist": "Esti Kornél",
-    "title": "Pá",
-    "category": "magyar"
-  },
-  {
-    "id": 139,
-    "artist": "Esti Kornél",
-    "title": "Vigyázz magadra",
-    "category": "magyar"
-  },
-  {
-    "id": 140,
-    "artist": "Esti Kornél",
-    "title": "Eltűntél",
-    "category": "magyar"
-  },
-  {
-    "id": 141,
-    "artist": "Ivan & The Parazol",
-    "title": "Take My Hand",
-    "category": "magyar"
-  },
-  {
-    "id": 142,
-    "artist": "Ivan & The Parazol",
-    "title": "Drága Buda",
-    "category": "magyar"
-  },
-  {
-    "id": 143,
-    "artist": "Ivan & The Parazol",
-    "title": "Inspi-Ráció",
-    "category": "magyar"
-  },
-  {
-    "id": 144,
-    "artist": "Ivan & The Parazol",
-    "title": "Nr. 1003",
-    "category": "magyar"
-  },
-  {
-    "id": 145,
-    "artist": "Ivan & The Parazol",
-    "title": "Beyond",
-    "category": "magyar"
-  },
-  {
-    "id": 146,
-    "artist": "Hyperkarma",
-    "title": "Lidocain",
-    "category": "magyar"
-  },
-  {
-    "id": 147,
-    "artist": "Hyperkarma",
-    "title": "Kétsarkú",
-    "category": "magyar"
-  },
-  {
-    "id": 148,
-    "artist": "Hyperkarma",
-    "title": "Felejtő",
-    "category": "magyar"
-  },
-  {
-    "id": 149,
-    "artist": "Hyperkarma",
-    "title": "Városi éjszaka",
-    "category": "magyar"
-  },
-  {
-    "id": 150,
-    "artist": "Hyperkarma",
-    "title": "DobBossa",
-    "category": "magyar"
-  },
-  {
-    "id": 151,
-    "artist": "Honeybeast",
-    "title": "A legnagyobb hős",
-    "category": "magyar"
-  },
-  {
-    "id": 152,
-    "artist": "Honeybeast",
-    "title": "Így játszom",
-    "category": "magyar"
-  },
-  {
-    "id": 153,
-    "artist": "Honeybeast",
-    "title": "Bódottá",
-    "category": "magyar"
-  },
-  {
-    "id": 154,
-    "artist": "Honeybeast",
-    "title": "Maradok",
-    "category": "magyar"
-  },
-  {
-    "id": 155,
-    "artist": "Honeybeast",
-    "title": "Hova ez a rohanás",
-    "category": "magyar"
-  },
-  {
-    "id": 156,
-    "artist": "Rúzsa Magdi",
-    "title": "Érj hozzám",
-    "category": "magyar"
-  },
-  {
-    "id": 157,
-    "artist": "Rúzsa Magdi",
-    "title": "Tejút",
-    "category": "magyar"
-  },
-  {
-    "id": 158,
-    "artist": "Rúzsa Magdi",
-    "title": "Mama",
-    "category": "magyar"
-  },
-  {
-    "id": 159,
+    "id": 91,
     "artist": "Rúzsa Magdi",
     "title": "Szerelem",
     "category": "magyar"
   },
   {
-    "id": 160,
+    "id": 92,
     "artist": "Rúzsa Magdi",
-    "title": "Április",
+    "title": "Aprócska blues",
     "category": "magyar"
   },
   {
-    "id": 161,
-    "artist": "Bohemian Betyars",
-    "title": "Megjöttek a fiúk",
+    "id": 93,
+    "artist": "Rúzsa Magdi",
+    "title": "Ég és föld",
     "category": "magyar"
   },
   {
-    "id": 162,
-    "artist": "Bohemian Betyars",
-    "title": "Csavargó",
+    "id": 94,
+    "artist": "Rúzsa Magdi",
+    "title": "Gábriel",
     "category": "magyar"
   },
   {
-    "id": 163,
-    "artist": "Bohemian Betyars",
-    "title": "Fekete",
+    "id": 95,
+    "artist": "Rúzsa Magdi",
+    "title": "Mama",
     "category": "magyar"
   },
   {
-    "id": 164,
-    "artist": "Bohemian Betyars",
-    "title": "Ha menni akarok",
-    "category": "magyar"
-  },
-  {
-    "id": 165,
-    "artist": "Bohemian Betyars",
-    "title": "Táncolj",
-    "category": "magyar"
-  },
-  {
-    "id": 166,
-    "artist": "Blahalouisiana",
-    "title": "Ha élni felejtek",
-    "category": "magyar"
-  },
-  {
-    "id": 167,
-    "artist": "Blahalouisiana",
-    "title": "Dejavu",
-    "category": "magyar"
-  },
-  {
-    "id": 168,
-    "artist": "Blahalouisiana",
-    "title": "Ahol összeér",
-    "category": "magyar"
-  },
-  {
-    "id": 169,
-    "artist": "Blahalouisiana",
-    "title": "Testem",
-    "category": "magyar"
-  },
-  {
-    "id": 170,
-    "artist": "Blahalouisiana",
-    "title": "Pont ilyen ház",
-    "category": "magyar"
-  },
-  {
-    "id": 171,
-    "artist": "30Y",
-    "title": "Bogozd ki",
-    "category": "magyar"
-  },
-  {
-    "id": 172,
-    "artist": "30Y",
-    "title": "Városember",
-    "category": "magyar"
-  },
-  {
-    "id": 173,
-    "artist": "30Y",
-    "title": "Ez a te kampányod",
-    "category": "magyar"
-  },
-  {
-    "id": 174,
-    "artist": "30Y",
-    "title": "Elsőre",
-    "category": "magyar"
-  },
-  {
-    "id": 175,
-    "artist": "30Y",
-    "title": "Resti",
-    "category": "magyar"
-  },
-  {
-    "id": 176,
-    "artist": "Péterfy Bori & Love Band",
-    "title": "Vámpír",
-    "category": "magyar"
-  },
-  {
-    "id": 177,
-    "artist": "Péterfy Bori & Love Band",
-    "title": "Hajolj bele",
-    "category": "magyar"
-  },
-  {
-    "id": 178,
-    "artist": "Péterfy Bori & Love Band",
-    "title": "Bűnös város",
-    "category": "magyar"
-  },
-  {
-    "id": 179,
-    "artist": "Péterfy Bori & Love Band",
-    "title": "Téged is",
-    "category": "magyar"
-  },
-  {
-    "id": 180,
-    "artist": "Péterfy Bori & Love Band",
-    "title": "Óriás szív",
-    "category": "magyar"
-  },
-  {
-    "id": 181,
-    "artist": "Konyha",
-    "title": "Százszor visszajátszott",
-    "category": "magyar"
-  },
-  {
-    "id": 182,
-    "artist": "Konyha",
-    "title": "Haza",
-    "category": "magyar"
-  },
-  {
-    "id": 183,
-    "artist": "Konyha",
-    "title": "Földre",
-    "category": "magyar"
-  },
-  {
-    "id": 184,
-    "artist": "Konyha",
-    "title": "Így volt szép",
-    "category": "magyar"
-  },
-  {
-    "id": 185,
-    "artist": "Konyha",
-    "title": "Végtelen",
-    "category": "magyar"
-  },
-  {
-    "id": 186,
-    "artist": "Zséda",
-    "title": "Valahol",
-    "category": "magyar"
-  },
-  {
-    "id": 187,
-    "artist": "Zséda",
-    "title": "Motiválo",
-    "category": "magyar"
-  },
-  {
-    "id": 188,
-    "artist": "Zséda",
-    "title": "Fekete rúzs",
-    "category": "magyar"
-  },
-  {
-    "id": 189,
-    "artist": "Zséda",
-    "title": "Helló",
-    "category": "magyar"
-  },
-  {
-    "id": 190,
-    "artist": "Zséda",
-    "title": "Ajtók mögött",
-    "category": "magyar"
-  },
-  {
-    "id": 191,
-    "artist": "Magna Cum Laude",
-    "title": "Színezd újra",
-    "category": "magyar"
-  },
-  {
-    "id": 192,
-    "artist": "Magna Cum Laude",
-    "title": "Pálinka dal",
-    "category": "magyar"
-  },
-  {
-    "id": 193,
-    "artist": "Magna Cum Laude",
-    "title": "Visszhang",
-    "category": "magyar"
-  },
-  {
-    "id": 194,
-    "artist": "Magna Cum Laude",
-    "title": "Lehet minden másképp",
-    "category": "magyar"
-  },
-  {
-    "id": 195,
-    "artist": "Magna Cum Laude",
-    "title": "Vidéki sanzon",
-    "category": "magyar"
-  },
-  {
-    "id": 196,
-    "artist": "AWS",
-    "title": "Hol voltál",
-    "category": "magyar"
-  },
-  {
-    "id": 197,
-    "artist": "AWS",
-    "title": "Viszlát nyár",
-    "category": "magyar"
-  },
-  {
-    "id": 198,
-    "artist": "AWS",
-    "title": "X/0",
-    "category": "magyar"
-  },
-  {
-    "id": 199,
-    "artist": "AWS",
-    "title": "Innen szép nyerni",
-    "category": "magyar"
-  },
-  {
-    "id": 200,
-    "artist": "AWS",
-    "title": "Hajnali",
-    "category": "magyar"
-  },
-  {
-    "id": 201,
+    "id": 96,
     "artist": "The Weeknd",
     "title": "Blinding Lights",
     "category": "kulfoldi"
   },
   {
-    "id": 202,
+    "id": 97,
     "artist": "The Weeknd",
     "title": "Starboy",
     "category": "kulfoldi"
   },
   {
-    "id": 203,
+    "id": 98,
     "artist": "The Weeknd",
     "title": "Save Your Tears",
     "category": "kulfoldi"
   },
   {
-    "id": 204,
+    "id": 99,
     "artist": "The Weeknd",
     "title": "The Hills",
     "category": "kulfoldi"
   },
   {
-    "id": 205,
+    "id": 100,
     "artist": "The Weeknd",
     "title": "Can't Feel My Face",
     "category": "kulfoldi"
   },
   {
-    "id": 206,
+    "id": 101,
     "artist": "Ed Sheeran",
     "title": "Shape of You",
     "category": "kulfoldi"
   },
   {
-    "id": 207,
+    "id": 102,
     "artist": "Ed Sheeran",
     "title": "Perfect",
     "category": "kulfoldi"
   },
   {
-    "id": 208,
+    "id": 103,
     "artist": "Ed Sheeran",
     "title": "Bad Habits",
     "category": "kulfoldi"
   },
   {
-    "id": 209,
+    "id": 104,
     "artist": "Ed Sheeran",
     "title": "Photograph",
     "category": "kulfoldi"
   },
   {
-    "id": 210,
+    "id": 105,
     "artist": "Ed Sheeran",
     "title": "Thinking Out Loud",
     "category": "kulfoldi"
   },
   {
-    "id": 211,
+    "id": 106,
     "artist": "Imagine Dragons",
     "title": "Believer",
     "category": "kulfoldi"
   },
   {
-    "id": 212,
+    "id": 107,
     "artist": "Imagine Dragons",
     "title": "Demons",
     "category": "kulfoldi"
   },
   {
-    "id": 213,
+    "id": 108,
     "artist": "Imagine Dragons",
     "title": "Radioactive",
     "category": "kulfoldi"
   },
   {
-    "id": 214,
+    "id": 109,
     "artist": "Imagine Dragons",
     "title": "Thunder",
     "category": "kulfoldi"
   },
   {
-    "id": 215,
+    "id": 110,
     "artist": "Imagine Dragons",
     "title": "Bones",
     "category": "kulfoldi"
   },
   {
-    "id": 216,
+    "id": 111,
     "artist": "Billie Eilish",
     "title": "bad guy",
     "category": "kulfoldi"
   },
   {
-    "id": 217,
+    "id": 112,
     "artist": "Billie Eilish",
     "title": "BIRDS OF A FEATHER",
     "category": "kulfoldi"
   },
   {
-    "id": 218,
+    "id": 113,
     "artist": "Billie Eilish",
     "title": "lovely",
     "category": "kulfoldi"
   },
   {
-    "id": 219,
+    "id": 114,
     "artist": "Billie Eilish",
     "title": "Happier Than Ever",
     "category": "kulfoldi"
   },
   {
-    "id": 220,
+    "id": 115,
     "artist": "Billie Eilish",
     "title": "when the party's over",
     "category": "kulfoldi"
   },
   {
-    "id": 221,
+    "id": 116,
     "artist": "Dua Lipa",
     "title": "Levitating",
     "category": "kulfoldi"
   },
   {
-    "id": 222,
+    "id": 117,
     "artist": "Dua Lipa",
     "title": "Don't Start Now",
     "category": "kulfoldi"
   },
   {
-    "id": 223,
+    "id": 118,
     "artist": "Dua Lipa",
     "title": "New Rules",
     "category": "kulfoldi"
   },
   {
-    "id": 224,
+    "id": 119,
     "artist": "Dua Lipa",
     "title": "Houdini",
     "category": "kulfoldi"
   },
   {
-    "id": 225,
+    "id": 120,
     "artist": "Dua Lipa",
     "title": "IDGAF",
     "category": "kulfoldi"
   },
   {
-    "id": 226,
+    "id": 121,
     "artist": "Bruno Mars",
     "title": "Uptown Funk",
     "category": "kulfoldi"
   },
   {
-    "id": 227,
+    "id": 122,
     "artist": "Bruno Mars",
     "title": "Just the Way You Are",
     "category": "kulfoldi"
   },
   {
-    "id": 228,
+    "id": 123,
     "artist": "Bruno Mars",
     "title": "Locked Out of Heaven",
     "category": "kulfoldi"
   },
   {
-    "id": 229,
+    "id": 124,
     "artist": "Bruno Mars",
     "title": "24K Magic",
     "category": "kulfoldi"
   },
   {
-    "id": 230,
+    "id": 125,
     "artist": "Bruno Mars",
     "title": "Grenade",
     "category": "kulfoldi"
   },
   {
-    "id": 231,
+    "id": 126,
     "artist": "Arctic Monkeys",
     "title": "Do I Wanna Know?",
     "category": "kulfoldi"
   },
   {
-    "id": 232,
+    "id": 127,
     "artist": "Arctic Monkeys",
     "title": "505",
     "category": "kulfoldi"
   },
   {
-    "id": 233,
+    "id": 128,
     "artist": "Arctic Monkeys",
     "title": "I Wanna Be Yours",
     "category": "kulfoldi"
   },
   {
-    "id": 234,
+    "id": 129,
     "artist": "Arctic Monkeys",
     "title": "R U Mine?",
     "category": "kulfoldi"
   },
   {
-    "id": 235,
+    "id": 130,
     "artist": "Arctic Monkeys",
     "title": "Arabella",
     "category": "kulfoldi"
   },
   {
-    "id": 236,
+    "id": 131,
     "artist": "Linkin Park",
     "title": "In the End",
     "category": "kulfoldi"
   },
   {
-    "id": 237,
+    "id": 132,
     "artist": "Linkin Park",
     "title": "Numb",
     "category": "kulfoldi"
   },
   {
-    "id": 238,
+    "id": 133,
     "artist": "Linkin Park",
     "title": "What I've Done",
     "category": "kulfoldi"
   },
   {
-    "id": 239,
+    "id": 134,
     "artist": "Linkin Park",
     "title": "Faint",
     "category": "kulfoldi"
   },
   {
-    "id": 240,
+    "id": 135,
     "artist": "Linkin Park",
     "title": "Crawling",
     "category": "kulfoldi"
   },
   {
-    "id": 241,
+    "id": 136,
     "artist": "Eminem",
     "title": "Lose Yourself",
     "category": "kulfoldi"
   },
   {
-    "id": 242,
+    "id": 137,
     "artist": "Eminem",
     "title": "Without Me",
     "category": "kulfoldi"
   },
   {
-    "id": 243,
+    "id": 138,
     "artist": "Eminem",
     "title": "Mockingbird",
     "category": "kulfoldi"
   },
   {
-    "id": 244,
+    "id": 139,
     "artist": "Eminem",
     "title": "Stan",
     "category": "kulfoldi"
   },
   {
-    "id": 245,
+    "id": 140,
     "artist": "Eminem",
     "title": "Love The Way You Lie",
     "category": "kulfoldi"
   },
   {
-    "id": 246,
+    "id": 141,
     "artist": "Michael Jackson",
     "title": "Billie Jean",
     "category": "kulfoldi"
   },
   {
-    "id": 247,
+    "id": 142,
     "artist": "Michael Jackson",
     "title": "Beat It",
     "category": "kulfoldi"
   },
   {
-    "id": 248,
+    "id": 143,
     "artist": "Michael Jackson",
     "title": "Thriller",
     "category": "kulfoldi"
   },
   {
-    "id": 249,
+    "id": 144,
     "artist": "Michael Jackson",
     "title": "Smooth Criminal",
     "category": "kulfoldi"
   },
   {
-    "id": 250,
+    "id": 145,
     "artist": "Michael Jackson",
     "title": "Bad",
     "category": "kulfoldi"
   },
   {
-    "id": 251,
+    "id": 146,
     "artist": "Queen",
     "title": "Bohemian Rhapsody",
     "category": "kulfoldi"
   },
   {
-    "id": 252,
+    "id": 147,
     "artist": "Queen",
     "title": "Another One Bites the Dust",
     "category": "kulfoldi"
   },
   {
-    "id": 253,
+    "id": 148,
     "artist": "Queen",
     "title": "Don't Stop Me Now",
     "category": "kulfoldi"
   },
   {
-    "id": 254,
+    "id": 149,
     "artist": "Queen",
     "title": "We Will Rock You",
     "category": "kulfoldi"
   },
   {
-    "id": 255,
+    "id": 150,
     "artist": "Queen",
     "title": "Somebody To Love",
     "category": "kulfoldi"
   },
   {
-    "id": 256,
+    "id": 151,
     "artist": "Avicii",
     "title": "Wake Me Up",
     "category": "kulfoldi"
   },
   {
-    "id": 257,
+    "id": 152,
     "artist": "Avicii",
     "title": "Levels",
     "category": "kulfoldi"
   },
   {
-    "id": 258,
+    "id": 153,
     "artist": "Avicii",
     "title": "The Nights",
     "category": "kulfoldi"
   },
   {
-    "id": 259,
+    "id": 154,
     "artist": "Avicii",
     "title": "Hey Brother",
     "category": "kulfoldi"
   },
   {
-    "id": 260,
+    "id": 155,
     "artist": "Avicii",
     "title": "Waiting For Love",
     "category": "kulfoldi"
   },
   {
-    "id": 261,
+    "id": 156,
     "artist": "Coldplay",
     "title": "Viva La Vida",
     "category": "kulfoldi"
   },
   {
-    "id": 262,
+    "id": 157,
     "artist": "Coldplay",
     "title": "Yellow",
     "category": "kulfoldi"
   },
   {
-    "id": 263,
+    "id": 158,
     "artist": "Coldplay",
     "title": "A Sky Full of Stars",
     "category": "kulfoldi"
   },
   {
-    "id": 264,
+    "id": 159,
     "artist": "Coldplay",
     "title": "Clocks",
     "category": "kulfoldi"
   },
   {
-    "id": 265,
+    "id": 160,
     "artist": "Coldplay",
     "title": "Fix You",
     "category": "kulfoldi"
   },
   {
-    "id": 266,
+    "id": 161,
     "artist": "Lady Gaga",
     "title": "Poker Face",
     "category": "kulfoldi"
   },
   {
-    "id": 267,
+    "id": 162,
     "artist": "Lady Gaga",
     "title": "Bad Romance",
     "category": "kulfoldi"
   },
   {
-    "id": 268,
+    "id": 163,
     "artist": "Lady Gaga",
     "title": "Shallow",
     "category": "kulfoldi"
   },
   {
-    "id": 269,
+    "id": 164,
     "artist": "Lady Gaga",
     "title": "Rain On Me",
     "category": "kulfoldi"
   },
   {
-    "id": 270,
+    "id": 165,
     "artist": "Lady Gaga",
     "title": "Just Dance",
     "category": "kulfoldi"
   },
   {
-    "id": 271,
+    "id": 166,
     "artist": "Rihanna",
     "title": "Umbrella",
     "category": "kulfoldi"
   },
   {
-    "id": 272,
+    "id": 167,
     "artist": "Rihanna",
     "title": "Diamonds",
     "category": "kulfoldi"
   },
   {
-    "id": 273,
+    "id": 168,
     "artist": "Rihanna",
     "title": "We Found Love",
     "category": "kulfoldi"
   },
   {
-    "id": 274,
+    "id": 169,
     "artist": "Rihanna",
     "title": "Work",
     "category": "kulfoldi"
   },
   {
-    "id": 275,
+    "id": 170,
     "artist": "Rihanna",
     "title": "Stay",
     "category": "kulfoldi"
   },
   {
-    "id": 276,
+    "id": 171,
     "artist": "Adele",
     "title": "Rolling in the Deep",
     "category": "kulfoldi"
   },
   {
-    "id": 277,
+    "id": 172,
     "artist": "Adele",
     "title": "Someone Like You",
     "category": "kulfoldi"
   },
   {
-    "id": 278,
+    "id": 173,
     "artist": "Adele",
     "title": "Hello",
     "category": "kulfoldi"
   },
   {
-    "id": 279,
+    "id": 174,
     "artist": "Adele",
     "title": "Easy On Me",
     "category": "kulfoldi"
   },
   {
-    "id": 280,
+    "id": 175,
     "artist": "Adele",
     "title": "Set Fire To The Rain",
     "category": "kulfoldi"
   },
   {
-    "id": 281,
+    "id": 176,
     "artist": "Taylor Swift",
     "title": "Blank Space",
     "category": "kulfoldi"
   },
   {
-    "id": 282,
+    "id": 177,
     "artist": "Taylor Swift",
     "title": "Shake It Off",
     "category": "kulfoldi"
   },
   {
-    "id": 283,
+    "id": 178,
     "artist": "Taylor Swift",
     "title": "Cruel Summer",
     "category": "kulfoldi"
   },
   {
-    "id": 284,
+    "id": 179,
     "artist": "Taylor Swift",
     "title": "Anti-Hero",
     "category": "kulfoldi"
   },
   {
-    "id": 285,
+    "id": 180,
     "artist": "Taylor Swift",
     "title": "Love Story",
     "category": "kulfoldi"
   },
   {
-    "id": 286,
+    "id": 181,
     "artist": "Post Malone",
     "title": "Circles",
     "category": "kulfoldi"
   },
   {
-    "id": 287,
+    "id": 182,
     "artist": "Post Malone",
     "title": "Sunflower",
     "category": "kulfoldi"
   },
   {
-    "id": 288,
+    "id": 183,
     "artist": "Post Malone",
     "title": "rockstar",
     "category": "kulfoldi"
   },
   {
-    "id": 289,
+    "id": 184,
     "artist": "Post Malone",
     "title": "Congratulations",
     "category": "kulfoldi"
   },
   {
-    "id": 290,
+    "id": 185,
     "artist": "Post Malone",
     "title": "Better Now",
     "category": "kulfoldi"
   },
   {
-    "id": 291,
+    "id": 186,
     "artist": "OneRepublic",
     "title": "Counting Stars",
     "category": "kulfoldi"
   },
   {
-    "id": 292,
+    "id": 187,
     "artist": "OneRepublic",
     "title": "Apologize",
     "category": "kulfoldi"
   },
   {
-    "id": 293,
+    "id": 188,
     "artist": "OneRepublic",
     "title": "I Ain't Worried",
     "category": "kulfoldi"
   },
   {
-    "id": 294,
+    "id": 189,
     "artist": "OneRepublic",
     "title": "Secrets",
     "category": "kulfoldi"
   },
   {
-    "id": 295,
+    "id": 190,
     "artist": "OneRepublic",
     "title": "Run",
     "category": "kulfoldi"
   },
   {
-    "id": 296,
+    "id": 191,
     "artist": "Maroon 5",
     "title": "Sugar",
     "category": "kulfoldi"
   },
   {
-    "id": 297,
+    "id": 192,
     "artist": "Maroon 5",
     "title": "Moves Like Jagger",
     "category": "kulfoldi"
   },
   {
-    "id": 298,
+    "id": 193,
     "artist": "Maroon 5",
     "title": "Animals",
     "category": "kulfoldi"
   },
   {
-    "id": 299,
+    "id": 194,
     "artist": "Maroon 5",
     "title": "Memories",
     "category": "kulfoldi"
   },
   {
-    "id": 300,
+    "id": 195,
     "artist": "Maroon 5",
     "title": "Payphone",
     "category": "kulfoldi"
   },
   {
-    "id": 301,
+    "id": 196,
     "artist": "Gorillaz",
     "title": "Feel Good Inc.",
     "category": "kulfoldi"
   },
   {
-    "id": 302,
+    "id": 197,
     "artist": "Gorillaz",
     "title": "Clint Eastwood",
     "category": "kulfoldi"
   },
   {
-    "id": 303,
+    "id": 198,
     "artist": "Gorillaz",
     "title": "On Melancholy Hill",
     "category": "kulfoldi"
   },
   {
-    "id": 304,
+    "id": 199,
     "artist": "Gorillaz",
     "title": "DARE",
     "category": "kulfoldi"
   },
   {
-    "id": 305,
+    "id": 200,
     "artist": "Gorillaz",
     "title": "El Mañana",
     "category": "kulfoldi"
   },
   {
-    "id": 306,
+    "id": 201,
     "artist": "Daft Punk",
     "title": "Get Lucky",
     "category": "kulfoldi"
   },
   {
-    "id": 307,
+    "id": 202,
     "artist": "Daft Punk",
     "title": "One More Time",
     "category": "kulfoldi"
   },
   {
-    "id": 308,
+    "id": 203,
     "artist": "Daft Punk",
     "title": "Harder Better Faster Stronger",
     "category": "kulfoldi"
   },
   {
-    "id": 309,
+    "id": 204,
     "artist": "Daft Punk",
     "title": "Around The World",
     "category": "kulfoldi"
   },
   {
-    "id": 310,
+    "id": 205,
     "artist": "Daft Punk",
     "title": "Instant Crush",
     "category": "kulfoldi"
   },
   {
-    "id": 311,
+    "id": 206,
     "artist": "Shawn Mendes",
     "title": "Treat You Better",
     "category": "kulfoldi"
   },
   {
-    "id": 312,
+    "id": 207,
     "artist": "Shawn Mendes",
     "title": "There's Nothing Holdin' Me Back",
     "category": "kulfoldi"
   },
   {
-    "id": 313,
+    "id": 208,
     "artist": "Shawn Mendes",
     "title": "Stitches",
     "category": "kulfoldi"
   },
   {
-    "id": 314,
+    "id": 209,
     "artist": "Shawn Mendes",
     "title": "Senorita",
     "category": "kulfoldi"
   },
   {
-    "id": 315,
+    "id": 210,
     "artist": "Shawn Mendes",
     "title": "Mercy",
     "category": "kulfoldi"
   },
   {
-    "id": 316,
+    "id": 211,
     "artist": "The Beatles",
     "title": "Hey Jude",
     "category": "kulfoldi"
   },
   {
-    "id": 317,
+    "id": 212,
     "artist": "The Beatles",
     "title": "Let It Be",
     "category": "kulfoldi"
   },
   {
-    "id": 318,
+    "id": 213,
     "artist": "The Beatles",
     "title": "Yesterday",
     "category": "kulfoldi"
   },
   {
-    "id": 319,
+    "id": 214,
     "artist": "The Beatles",
     "title": "Come Together",
     "category": "kulfoldi"
   },
   {
-    "id": 320,
+    "id": 215,
     "artist": "The Beatles",
     "title": "Here Comes The Sun",
     "category": "kulfoldi"
   },
   {
-    "id": 321,
+    "id": 216,
     "artist": "David Guetta",
     "title": "Titanium",
     "category": "kulfoldi"
   },
   {
-    "id": 322,
+    "id": 217,
     "artist": "David Guetta",
     "title": "Memories",
     "category": "kulfoldi"
   },
   {
-    "id": 323,
+    "id": 218,
     "artist": "David Guetta",
     "title": "Without You",
     "category": "kulfoldi"
   },
   {
-    "id": 324,
+    "id": 219,
     "artist": "David Guetta",
     "title": "Lovers On The Sun",
     "category": "kulfoldi"
   },
   {
-    "id": 325,
+    "id": 220,
     "artist": "David Guetta",
     "title": "Dangerous",
     "category": "kulfoldi"
   },
   {
-    "id": 326,
+    "id": 221,
     "artist": "Calvin Harris",
     "title": "Summer",
     "category": "kulfoldi"
   },
   {
-    "id": 327,
+    "id": 222,
     "artist": "Calvin Harris",
     "title": "Feel So Close",
     "category": "kulfoldi"
   },
   {
-    "id": 328,
+    "id": 223,
     "artist": "Calvin Harris",
     "title": "This Is What You Came For",
     "category": "kulfoldi"
   },
   {
-    "id": 329,
+    "id": 224,
     "artist": "Calvin Harris",
     "title": "One Kiss",
     "category": "kulfoldi"
   },
   {
-    "id": 330,
+    "id": 225,
     "artist": "Calvin Harris",
     "title": "Sweet Nothing",
     "category": "kulfoldi"
   },
   {
-    "id": 331,
+    "id": 226,
     "artist": "Sia",
     "title": "Chandelier",
     "category": "kulfoldi"
   },
   {
-    "id": 332,
+    "id": 227,
     "artist": "Sia",
     "title": "Cheap Thrills",
     "category": "kulfoldi"
   },
   {
-    "id": 333,
+    "id": 228,
     "artist": "Sia",
     "title": "Elastic Heart",
     "category": "kulfoldi"
   },
   {
-    "id": 334,
+    "id": 229,
     "artist": "Sia",
     "title": "Unstoppable",
     "category": "kulfoldi"
   },
   {
-    "id": 335,
+    "id": 230,
     "artist": "Sia",
     "title": "The Greatest",
     "category": "kulfoldi"
   },
   {
-    "id": 336,
+    "id": 231,
     "artist": "Ariana Grande",
     "title": "7 rings",
     "category": "kulfoldi"
   },
   {
-    "id": 337,
+    "id": 232,
     "artist": "Ariana Grande",
     "title": "no tears left to cry",
     "category": "kulfoldi"
   },
   {
-    "id": 338,
+    "id": 233,
     "artist": "Ariana Grande",
     "title": "positions",
     "category": "kulfoldi"
   },
   {
-    "id": 339,
+    "id": 234,
     "artist": "Ariana Grande",
     "title": "Into You",
     "category": "kulfoldi"
   },
   {
-    "id": 340,
+    "id": 235,
     "artist": "Ariana Grande",
     "title": "Thank U, Next",
     "category": "kulfoldi"
   },
   {
-    "id": 341,
+    "id": 236,
     "artist": "Justin Bieber",
     "title": "Sorry",
     "category": "kulfoldi"
   },
   {
-    "id": 342,
+    "id": 237,
     "artist": "Justin Bieber",
     "title": "Love Yourself",
     "category": "kulfoldi"
   },
   {
-    "id": 343,
+    "id": 238,
     "artist": "Justin Bieber",
     "title": "Stay",
     "category": "kulfoldi"
   },
   {
-    "id": 344,
+    "id": 239,
     "artist": "Justin Bieber",
     "title": "Peaches",
     "category": "kulfoldi"
   },
   {
-    "id": 345,
+    "id": 240,
     "artist": "Justin Bieber",
     "title": "Baby",
     "category": "kulfoldi"
   },
   {
-    "id": 346,
+    "id": 241,
     "artist": "Drake",
     "title": "God's Plan",
     "category": "kulfoldi"
   },
   {
-    "id": 347,
+    "id": 242,
     "artist": "Drake",
     "title": "One Dance",
     "category": "kulfoldi"
   },
   {
-    "id": 348,
+    "id": 243,
     "artist": "Drake",
     "title": "Hotline Bling",
     "category": "kulfoldi"
   },
   {
-    "id": 349,
+    "id": 244,
     "artist": "Drake",
     "title": "In My Feelings",
     "category": "kulfoldi"
   },
   {
-    "id": 350,
+    "id": 245,
     "artist": "Drake",
     "title": "Nice For What",
     "category": "kulfoldi"
   },
   {
-    "id": 351,
+    "id": 246,
     "artist": "Travis Scott",
     "title": "SICKO MODE",
     "category": "kulfoldi"
   },
   {
-    "id": 352,
+    "id": 247,
     "artist": "Travis Scott",
     "title": "goosebumps",
     "category": "kulfoldi"
   },
   {
-    "id": 353,
+    "id": 248,
     "artist": "Travis Scott",
     "title": "HIGHEST IN THE ROOM",
     "category": "kulfoldi"
   },
   {
-    "id": 354,
+    "id": 249,
     "artist": "Travis Scott",
     "title": "Antidote",
     "category": "kulfoldi"
   },
   {
-    "id": 355,
+    "id": 250,
     "artist": "Travis Scott",
     "title": "FE!N",
     "category": "kulfoldi"
   },
   {
-    "id": 356,
+    "id": 251,
     "artist": "Kendrick Lamar",
     "title": "HUMBLE.",
     "category": "kulfoldi"
   },
   {
-    "id": 357,
+    "id": 252,
     "artist": "Kendrick Lamar",
     "title": "DNA.",
     "category": "kulfoldi"
   },
   {
-    "id": 358,
+    "id": 253,
     "artist": "Kendrick Lamar",
     "title": "Alright",
     "category": "kulfoldi"
   },
   {
-    "id": 359,
+    "id": 254,
     "artist": "Kendrick Lamar",
     "title": "Money Trees",
     "category": "kulfoldi"
   },
   {
-    "id": 360,
+    "id": 255,
     "artist": "Kendrick Lamar",
     "title": "Not Like Us",
     "category": "kulfoldi"
   },
   {
-    "id": 361,
+    "id": 256,
     "artist": "The Neighbourhood",
     "title": "Sweater Weather",
     "category": "kulfoldi"
   },
   {
-    "id": 362,
+    "id": 257,
     "artist": "The Neighbourhood",
     "title": "Daddy Issues",
     "category": "kulfoldi"
   },
   {
-    "id": 363,
+    "id": 258,
     "artist": "The Neighbourhood",
     "title": "Softcore",
     "category": "kulfoldi"
   },
   {
-    "id": 364,
+    "id": 259,
     "artist": "The Neighbourhood",
     "title": "Afraid",
     "category": "kulfoldi"
   },
   {
-    "id": 365,
+    "id": 260,
     "artist": "The Neighbourhood",
     "title": "Reflections",
     "category": "kulfoldi"
   },
   {
-    "id": 366,
+    "id": 261,
     "artist": "Lana Del Rey",
     "title": "Summertime Sadness",
     "category": "kulfoldi"
   },
   {
-    "id": 367,
+    "id": 262,
     "artist": "Lana Del Rey",
     "title": "Video Games",
     "category": "kulfoldi"
   },
   {
-    "id": 368,
+    "id": 263,
     "artist": "Lana Del Rey",
     "title": "Born To Die",
     "category": "kulfoldi"
   },
   {
-    "id": 369,
+    "id": 264,
     "artist": "Lana Del Rey",
     "title": "Doin' Time",
     "category": "kulfoldi"
   },
   {
-    "id": 370,
+    "id": 265,
     "artist": "Lana Del Rey",
     "title": "West Coast",
     "category": "kulfoldi"
   },
   {
-    "id": 371,
+    "id": 266,
     "artist": "Harry Styles",
     "title": "Watermelon Sugar",
     "category": "kulfoldi"
   },
   {
-    "id": 372,
+    "id": 267,
     "artist": "Harry Styles",
     "title": "As It Was",
     "category": "kulfoldi"
   },
   {
-    "id": 373,
+    "id": 268,
     "artist": "Harry Styles",
     "title": "Sign of the Times",
     "category": "kulfoldi"
   },
   {
-    "id": 374,
+    "id": 269,
     "artist": "Harry Styles",
     "title": "Adore You",
     "category": "kulfoldi"
   },
   {
-    "id": 375,
+    "id": 270,
     "artist": "Harry Styles",
     "title": "Falling",
     "category": "kulfoldi"
   },
   {
-    "id": 376,
+    "id": 271,
     "artist": "Lewis Capaldi",
     "title": "Someone You Loved",
     "category": "kulfoldi"
   },
   {
-    "id": 377,
+    "id": 272,
     "artist": "Lewis Capaldi",
     "title": "Before You Go",
     "category": "kulfoldi"
   },
   {
-    "id": 378,
+    "id": 273,
     "artist": "Lewis Capaldi",
     "title": "Bruises",
     "category": "kulfoldi"
   },
   {
-    "id": 379,
+    "id": 274,
     "artist": "Lewis Capaldi",
     "title": "Hold Me While You Wait",
     "category": "kulfoldi"
   },
   {
-    "id": 380,
+    "id": 275,
     "artist": "Lewis Capaldi",
     "title": "Forget Me",
     "category": "kulfoldi"
   },
   {
-    "id": 381,
+    "id": 276,
     "artist": "Lorde",
     "title": "Royals",
     "category": "kulfoldi"
   },
   {
-    "id": 382,
+    "id": 277,
     "artist": "Lorde",
     "title": "Supercut",
     "category": "kulfoldi"
   },
   {
-    "id": 383,
+    "id": 278,
     "artist": "Lorde",
     "title": "Team",
     "category": "kulfoldi"
   },
   {
-    "id": 384,
+    "id": 279,
     "artist": "Lorde",
     "title": "Green Light",
     "category": "kulfoldi"
   },
   {
-    "id": 385,
+    "id": 280,
     "artist": "Lorde",
     "title": "Solar Power",
     "category": "kulfoldi"
   },
   {
-    "id": 386,
+    "id": 281,
     "artist": "Twenty One Pilots",
     "title": "Heathens",
     "category": "kulfoldi"
   },
   {
-    "id": 387,
+    "id": 282,
     "artist": "Twenty One Pilots",
     "title": "Stressed Out",
     "category": "kulfoldi"
   },
   {
-    "id": 388,
+    "id": 283,
     "artist": "Twenty One Pilots",
     "title": "Ride",
     "category": "kulfoldi"
   },
   {
-    "id": 389,
+    "id": 284,
     "artist": "Twenty One Pilots",
     "title": "Heavydirtysoul",
     "category": "kulfoldi"
   },
   {
-    "id": 390,
+    "id": 285,
     "artist": "Twenty One Pilots",
     "title": "Chlorine",
     "category": "kulfoldi"
   },
   {
-    "id": 391,
+    "id": 286,
     "artist": "Red Hot Chili Peppers",
     "title": "Californication",
     "category": "kulfoldi"
   },
   {
-    "id": 392,
+    "id": 287,
     "artist": "Red Hot Chili Peppers",
     "title": "Can't Stop",
     "category": "kulfoldi"
   },
   {
-    "id": 393,
+    "id": 288,
     "artist": "Red Hot Chili Peppers",
     "title": "Under The Bridge",
     "category": "kulfoldi"
   },
   {
-    "id": 394,
+    "id": 289,
     "artist": "Red Hot Chili Peppers",
     "title": "Otherside",
     "category": "kulfoldi"
   },
   {
-    "id": 395,
+    "id": 290,
     "artist": "Red Hot Chili Peppers",
     "title": "Scar Tissue",
     "category": "kulfoldi"
   },
   {
-    "id": 396,
+    "id": 291,
     "artist": "Metallica",
     "title": "Nothing Else Matters",
     "category": "kulfoldi"
   },
   {
-    "id": 397,
+    "id": 292,
     "artist": "Metallica",
     "title": "Enter Sandman",
     "category": "kulfoldi"
   },
   {
-    "id": 398,
+    "id": 293,
     "artist": "Metallica",
     "title": "The Unforgiven",
     "category": "kulfoldi"
   },
   {
-    "id": 399,
+    "id": 294,
     "artist": "Metallica",
     "title": "One",
     "category": "kulfoldi"
   },
   {
-    "id": 400,
+    "id": 295,
     "artist": "Metallica",
     "title": "Master Of Puppets",
     "category": "kulfoldi"
   }
 ]
-
