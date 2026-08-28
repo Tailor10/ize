@@ -1,19 +1,17 @@
 <!DOCTYPE html>
 <html lang="hu">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Songless</title>
+    <title>Songless - Hallod?</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-
-    <!-- JÁTÉK INDÍTÁSA -->
+    <!-- NÉV ÉS JÁTÉKMÓD -->
 
     <div id="nameModal" class="modal">
 
@@ -26,73 +24,66 @@
                 milyen zenéket szeretnél kitalálni.
             </p>
 
-
             <input
                 id="playerNameInput"
                 type="text"
                 maxlength="20"
                 placeholder="Például: Ádám"
-                autocomplete="off">
-
+                autocomplete="off"
+            >
 
             <h3 class="category-title">
                 Milyen zenéket szeretnél?
             </h3>
-
 
             <div class="category-buttons">
 
                 <button
                     type="button"
                     class="category-button"
-                    data-category="magyar">
-
+                    data-category="magyar"
+                >
                     <span class="category-icon">🇭🇺</span>
 
                     <span>
                         <strong>Magyar</strong>
                         <small>Magyar előadók és dalok</small>
                     </span>
-
                 </button>
-
 
                 <button
                     type="button"
                     class="category-button"
-                    data-category="kulfoldi">
-
+                    data-category="kulfoldi"
+                >
                     <span class="category-icon">🌍</span>
 
                     <span>
                         <strong>Külföldi</strong>
                         <small>Nemzetközi előadók és dalok</small>
                     </span>
-
                 </button>
-
 
                 <button
                     type="button"
                     class="category-button active"
-                    data-category="vegyes">
-
+                    data-category="vegyes"
+                >
                     <span class="category-icon">🎲</span>
 
                     <span>
                         <strong>Vegyes</strong>
                         <small>Magyar és külföldi zenék</small>
                     </span>
-
                 </button>
 
             </div>
 
-
-            <button id="startGameButton">
-
+            <button
+                id="startGameButton"
+                type="button"
+            >
                 Játék indítása ▶
-
             </button>
 
         </div>
@@ -100,27 +91,22 @@
     </div>
 
 
-
     <!-- FŐ JÁTÉK -->
 
     <main class="game">
-
 
         <header>
 
             <h1>🎵 Hallod?</h1>
 
             <p id="gameSubtitle">
-
                 Találd ki a dalt minél kevesebb hallgatásból!
-
             </p>
 
         </header>
 
 
-
-        <!-- KATEGÓRIA -->
+        <!-- JÁTÉKMÓD -->
 
         <div class="current-category">
 
@@ -132,14 +118,12 @@
 
             <button
                 id="changeCategoryButton"
-                type="button">
-
+                type="button"
+            >
                 Módosítás
-
             </button>
 
         </div>
-
 
 
         <!-- STATISZTIKÁK -->
@@ -147,39 +131,21 @@
         <section class="stats">
 
             <div class="stat">
-
                 <span>Pontszám</span>
-
-                <strong id="score">
-                    0
-                </strong>
-
+                <strong id="score">0</strong>
             </div>
 
-
             <div class="stat">
-
                 <span>Streak</span>
-
-                <strong id="streak">
-                    0 🔥
-                </strong>
-
+                <strong id="streak">0 🔥</strong>
             </div>
 
-
             <div class="stat">
-
                 <span>Kör</span>
-
-                <strong id="round">
-                    1
-                </strong>
-
+                <strong id="round">1</strong>
             </div>
 
         </section>
-
 
 
         <!-- LEADERBOARD -->
@@ -192,29 +158,23 @@
 
                 <button
                     id="changeNameButton"
-                    type="button">
-
+                    type="button"
+                >
                     Név módosítása
-
                 </button>
 
             </div>
 
-
             <div
                 id="leaderboardList"
-                class="leaderboard-list">
-
+                class="leaderboard-list"
+            >
                 <div class="leaderboard-loading">
-
                     Ranglista betöltése...
-
                 </div>
-
             </div>
 
         </section>
-
 
 
         <!-- LEJÁTSZÓ -->
@@ -224,30 +184,23 @@
             <button
                 id="playButton"
                 class="play-button"
-                disabled>
-
+                type="button"
+                disabled
+                aria-label="Lejátszás"
+            >
                 ▶
-
             </button>
 
 
             <div class="time-display">
 
-                <span id="currentTime">
-                    0.0
-                </span>
+                <span id="currentTime">0.0</span>
 
-                <span class="time-separator">
-                    /
-                </span>
+                <span class="time-separator">/</span>
 
-                <span id="listenTime">
-                    0.5
-                </span>
+                <span id="listenTime">0.5</span>
 
-                <span class="time-unit">
-                    mp
-                </span>
+                <span class="time-unit">mp</span>
 
             </div>
 
@@ -256,34 +209,67 @@
 
                 <div
                     id="progressBar"
-                    class="progress-bar">
+                    class="progress-bar"
+                ></div>
 
-                </div>
+            </div>
+
+
+            <!-- HANGERŐ -->
+
+            <div class="volume-control">
+
+                <span
+                    id="volumeIcon"
+                    class="volume-icon"
+                >
+                    🔊
+                </span>
+
+                <input
+                    id="volumeSlider"
+                    type="range"
+                    min="0"
+                    max="100"
+                    value="70"
+                    aria-label="Hangerő"
+                >
+
+                <span id="volumeValue">
+                    70%
+                </span>
 
             </div>
 
         </section>
-
 
 
         <!-- KERESŐ -->
 
         <section class="search-container">
 
-            <input
-                id="guessInput"
-                type="text"
-                placeholder="Írd be a dal vagy előadó nevét..."
-                autocomplete="off">
+            <div class="search-input-wrapper">
 
-            <div
-                id="results"
-                class="results">
+                <span class="search-icon">
+                    🔍
+                </span>
+
+                <input
+                    id="guessInput"
+                    type="text"
+                    placeholder="Írd be a dal vagy előadó nevét..."
+                    autocomplete="off"
+                >
 
             </div>
 
-        </section>
 
+            <div
+                id="results"
+                class="results"
+            ></div>
+
+        </section>
 
 
         <!-- GOMBOK -->
@@ -292,57 +278,50 @@
 
             <button
                 id="giveUpButton"
-                class="secondary danger">
-
-                Feladom
-
+                class="secondary danger"
+                type="button"
+            >
+                🏳️ Feladom
             </button>
-
 
             <button
                 id="moreButton"
-                class="secondary">
-
-                Többet hallgatok
-
+                class="secondary"
+                type="button"
+            >
+                🎧 Többet hallgatok
             </button>
 
         </section>
-
 
 
         <!-- ÜZENET -->
 
         <div
             id="message"
-            class="message">
-
+            class="message"
+        >
             Válaszd ki a játékmódot!
-
         </div>
-
 
 
         <!-- KÖVETKEZŐ DAL -->
 
         <button
             id="nextButton"
-            class="next-button hidden">
-
+            class="next-button hidden"
+            type="button"
+        >
             Következő dal →
-
         </button>
 
     </main>
 
 
-
     <script
         type="module"
-        src="app.js">
-
-    </script>
+        src="app.js"
+    ></script>
 
 </body>
-
 </html>
